@@ -4,7 +4,7 @@
 
 			<div class="search">
 				<div class="icon"><img class="iconimg" src="../assets/images/ccsearch.png" alt=""></div>
-				<input type="text" placeholder="请输入你想要的商品" />
+				<input type="text" placeholder="搜索倾听者/话题" />
 			</div>
 
 		</div>
@@ -94,7 +94,6 @@
 					</div>
 				</div>
 			</div>
-
 
 			<div class="whole who">
 				<div class="more">

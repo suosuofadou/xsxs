@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import index from '@/pages/index'
 import classs from '@/pages/classs'
 import shopping from '@/pages/shopping'
-import message from '@/pages/message'
 import my from '@/pages/my'
 import serviceList from '@/pages/serviceList'
 import setting from '@/pages/setting'
@@ -38,11 +37,11 @@ export default new Router({
 			name: 'shopping',
 			component: shopping
 		},
-    {
-      path: '/message',
-      name: 'message',
-      component: message
-    },
+    // {
+    //   path: '/message',
+    //   name: 'message',
+    //   component: message
+    // },
 		{
 			path: '/my',
 			name: 'my',

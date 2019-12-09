@@ -1,7 +1,7 @@
 <template>
 	<div>
     <div class="serch">
-      <input type="text" placeholder="请输入您想要的商品">
+      <input type="text" placeholder="搜索倾听者/话题">
     </div>
 	</div>
 </template>
@@ -60,12 +60,12 @@
   	border-top-left-radius: 0.3rem;
   	border-bottom-left-radius: 0.3rem;
   	background: #f4f4f4;
-  
-  
+
+
   }
   .iconimg{
   	width: 80%;
-  	height: 80%; 
+  	height: 80%;
   	float: right;
   	margin-top: 0.1rem;
   	}

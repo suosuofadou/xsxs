@@ -2,7 +2,7 @@
 	<div>
 		<div class="search">
 			<div class="icon"><img class="iconimg" src="../assets/images/ccsearch.png" alt=""></div>
-			<input type="text" placeholder="请输入你想要的商品" />
+			<input type="text" placeholder="搜索倾听者/话题" />
 		</div>
 
 	</div>
@@ -30,7 +30,7 @@
 		align-items: center;
 		background: #fff;
 	}
-	
+
 	.search input {
 		border: none;
 		background: #f4f4f4;
@@ -61,7 +61,7 @@
 	}
 	.iconimg{
 		width: 80%;
-		height: 80%; 
+		height: 80%;
 		float: right;
 		margin-top: 0.1rem;
 		}
