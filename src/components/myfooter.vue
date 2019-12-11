@@ -20,9 +20,6 @@
 			      心事
 			  </router-link>
       </li>
-      <li>
-        <router-link to="/message">
-          <span class="iconfont icon-xiaoxi"></span>
 			      消息
 			  </router-link>
       </li>
