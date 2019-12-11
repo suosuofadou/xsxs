@@ -69,9 +69,12 @@
   li{
     flex: 1;
     height: 100%;
-    font-size: .12rem;
+
     list-style: none;
-    margin-top: 0.1rem;
+    margin-top: 0.14rem;
+  }
+  .iconfont{
+    font-size: .52rem;
   }
   a{
 	display: flex;
