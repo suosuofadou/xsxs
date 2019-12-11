@@ -3,35 +3,33 @@
     <ul>
       <li>
         <router-link to="/">
-		      <img src="../assets/img/index.png">
+          <span class="iconfont icon-1"></span>
 			      首页
 		    </router-link>
       </li>
 
       <li>
         <router-link to="/classs">
-		      <img src="../assets/img/classs.png" alt="">
+          <span class="iconfont icon-huangguan"></span>
 			      VIP
 		    </router-link>
       </li>
-
       <li>
         <router-link to="/shopping">
-			    <img src="../assets/img/shopping.png" alt="">
+          <span class="iconfont icon-xintubiao-"></span>
 			      心事
 			  </router-link>
       </li>
-
-<!--      <li>-->
-<!--        <router-link to="/message">-->
-<!--			    <img src="../assets/img/my.png" alt="">-->
-<!--			      消息-->
-<!--			  </router-link>-->
-<!--      </li>-->
+      <li>
+        <router-link to="/message">
+          <span class="iconfont icon-xiaoxi"></span>
+			      消息
+			  </router-link>
+      </li>
 
       <li>
         <router-link to="/my">
-          <img src="../assets/img/my.png" alt="">
+          <span class="iconfont icon-wode"></span>
             我的
         </router-link>
       </li>
@@ -60,10 +58,11 @@
 </script>
 
 <style scoped="scoped">
+  @import "../assets/font_qsta16in8ho/iconfont.css";
   .myfooter{
     width: 100%;
     height: 1rem;
-    background: #fff;
+    background-color:#7D39A0;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -76,6 +75,7 @@
     height: 100%;
     font-size: .12rem;
     list-style: none;
+    margin-top: 0.1rem;
   }
   a{
 	display: flex;
@@ -84,9 +84,12 @@
     width: 100%;
     height: 100%;
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
 	padding-top: .05rem;
 	box-sizing: border-box;
+  }
+  a:hover{
+    color: red;
   }
   li a img{
 	  width: .45rem;

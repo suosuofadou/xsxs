@@ -5,12 +5,8 @@
 			<div class="personal-pic"></div>
 			<div class="person-info">
 				<div class="person-name">
-					<p>178****8917</p>
-					<div class="person-message">
-						<router-link to="/minemessage">
-							<img src="../assets/images/kefu.png" />
-						</router-link>
-					</div>
+					<p>178****8917</p>&nbsp;&nbsp;&nbsp;
+          <img src="../assets/images/erji1.png" alt="">
 				</div>
 				<div class="person-level">
 					<img src="../assets/images/huiyaun.png" />
@@ -20,7 +16,7 @@
 				<li>
 					<router-link to="/serviceList">
 						<img src="../assets/images/ptfw.png" />
-						<p>平台服务</p>
+						<p>会员中心</p>
 					</router-link>
 				</li>
 				<li>
@@ -31,79 +27,90 @@
 				</li>
 			</ul>
 		</div>
+      <div class="funs">
+        <div class="funs_num">
+          <ul>
+          <li>
+            <span>366</span>
+           <p> <a href="#">关注</a></p>
+          </li>
+            <li>
+              <span>66</span>
+              <p> <a href="#">收藏</a></p>
+            </li>
+            <li>
+              <span>56</span>
+              <p> <a href="#">访客</a></p>
+            </li>
+            <li>
+              <span>86</span>
+              <p> <a href="#">粉丝</a></p>
+            </li>
+        </ul>
+        </div>
+
+      </div>
 		<!-- 订单 -->
 		<div class="order-panel">
 			<div class="order-all">
 				<router-link to="/orderlist">
-					<img src="../assets/images/all.png" />
-					<p>全部订单</p>
-					<span>含拼团订单</span>
+					<img src="../assets/images/lvsefenkaicankaoxianban-.png" />
+					<p>我的订单</p>
 				</router-link>
-			</div>
-			<div class="order-line">
-				<img src="../assets/images/line.png">
 			</div>
 			<ul>
 				<li>
 					<router-link to="">
-						<img src="../assets/images/daiplay.png">
-						<p>代付款</p>
+						<img src="../assets/images/iconzhengli-.png">
+						<p>我的钱包</p>
 					</router-link>
 				</li>
 				<li>
 					<router-link to="">
-						<img src="../assets/images/daishouh.png">
-						<p>生产/待收货</p>
+						<img src="../assets/images/chongzhi.png">
+						<p>钱包充值</p>
 					</router-link>
 				</li>
 				<li>
 					<router-link to="">
-						<img src="../assets/images/daipingj.png">
-						<p>待评价</p>
+						<img src="../assets/images/fabu-.png">
+						<p>我的发布</p>
 					</router-link>
 				</li>
 				<li class="drawback" @click="droback()">
 					<router-link to="">
-						<img src="../assets/images/daituik.png">
-						<p>退款/售后</p>
+						<img src="../assets/images/huodong.png">
+						<p>超值活动</p>
 					</router-link>
 				</li>
 			</ul>
 		</div>
 		<!-- nav -->
 		<div class="entry-wrapper">
-			<ul class="entry-ul">
-				<li class="entry-li">
-					<div class="entry-item">
-						<div class="entry-icon">
-							<img src="../assets/images/tequan.png">
-						</div>
-						<h4 class="entry-text">特权卡</h4>
-					</div>
-				</li>
-				<li class="entry-li">
-					<div class="entry-item">
-						<div class="entry-icon">
-							<img src="../assets/images/meirisx.png">
-							<span class="red-point"></span>
-						</div>
-						<h4 class="entry-text">每日挖宝</h4>
-					</div>
-				</li>
-				<li class="entry-li">
-					<div class="entry-item">
-						<div class="entry-icon">
-							<img src="../assets/images/dingzhicf.png">
-						</div>
-						<h4 class="entry-text">定制咖啡</h4>
-					</div>
-				</li>
-			</ul>
+      <a href="#">
+        <img src="../assets/images/hearts.png" alt="">
+        <span>心情日记</span>
+      </a>
 		</div>
+    <div class="entry-wrapper">
+      <a href="#"><img src="../assets/images/ren.png" alt=""><span>成为倾听者</span></a>
+    </div>
+    <div class="entry-wrapper">
+      <a href="#"><img src="../assets/images/wenti.png" alt=""><span>常见问题</span></a>
+    </div>
+    <div class="entry-wrapper">
+      <a href="#"><img src="../assets/images/dianhua.png" alt=""><span>客服电话</span></a>
+    </div>
+    <div class="entry-wrapper">
+      <a href="#"><img src="../assets/images/yijianfankui.png" alt=""><span>意见反馈</span></a>
+    </div>
+    <div class="entry-wrapper">
+      <a href="#"><img src="../assets/images/tuichu.png" alt=""><span>退出账号</span></a>
+    </div>
 		<!-- 为你推荐 -->
 		<div class="recommendPosition">
 			<div class="recommend-title">
-				<p class="title">为你推荐</p>
+				<p class="title">推荐倾听</p>
 				<div class="line"></div>
 			</div>
 		</div>
@@ -352,7 +359,7 @@
 		height: 0.8rem;
 		border-radius: 50%;
 		border: 0.05rem solid #fff;
-		background: url(../assets/images/tpuxiang.png) no-repeat;
+		background: url(../assets/images/297762.jpg) no-repeat;
 		background-size: 100%;
 	}
 
@@ -423,10 +430,23 @@
 		height: 0.28rem;
 		font-size: 0.12rem;
 		text-align: center;
-		margin-top: 0.1rem 0 0;
-
+		margin-top: 0.1rem;
 	}
-
+  .funs{
+    width: 100%;
+    height: 1.2rem;
+    background-color:#7D39A0;
+    color: #cccccc;
+    font-size: 6px;
+  }
+  .funs_num li{
+    padding-top: 0.3rem;
+    float: left;
+    margin-left: 1.1rem;
+  }
+  .funs_num li p a{
+    color: #ffffff;
+  }
 	.person-level {
 		width: 0.32rem;
 		height: 0.28rem;
@@ -448,7 +468,7 @@
 		width: 1.32rem;
 		height: 1.19rem;
 		text-align: center;
-		padding-top: .13rem;
+		padding-top: .21rem;
 		background: #fff;
 	}
 
@@ -463,20 +483,11 @@
 
 	.order-all p {
 		height: 0.3rem;
-		line-height: 0.3rem;
+		line-height: 0.44rem;
 		font-size: 0.12rem;
 		color: #666;
 		margin-top: 0.06rem;
 	}
-
-	.order-all span {
-		width: 100%;
-		height: 0.25rem;
-		line-height: 0.25rem;
-		font-size: 0.12rem;
-		color: #999;
-	}
-
 	.order-line {
 		width: .18rem;
 		padding-top: .13rem;
@@ -514,42 +525,24 @@
 
 	.entry-wrapper {
 		width: 100%;
+    height: 1rem;
 		margin-top: .16rem;
 		overflow: hidden;
-		display: block;
 		background: #FFFFFF;
 	}
-
-	.entry-li {
-		margin-left: 0.2rem;
-		width: 1.26rem;
-		height: 1.54rem;
-		float: left;
+  .entry-wrapper img{
+    line-height: 1rem;
+		width: .54rem;
+		height: .54rem;
+    vertical-align: middle;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
 	}
-
-	.entry-item {
-		margin-top: .28rem;
-		padding-top: .14rem;
-		height: 1.26rem;
-		background: none;
-	}
-
-	.entry-icon {
-		position: relative;
-		margin: 0 auto;
-		width: .44rem;
-		height: .44rem;
-	}
-
-	.entry-text {
-		margin-top: .16rem;
-		height: .34rem;
-		line-height: .34rem;
-		font-size: .24rem;
-		color: #666;
-		text-align: center;
-	}
-
+  .entry-wrapper span{
+    font-size: 16px;
+    font-weight: bold;
+    line-height:1rem;
+  }
 	.red-point {
 		position: absolute;
 		right: -0.06rem;
@@ -563,7 +556,6 @@
 	.recommendPosition {
 		display: block;
 		width: 100%;
-		height: ;
 		margin-top: 0.16rem;
 		background: #7D39A0;
 	}
