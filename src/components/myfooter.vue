@@ -4,33 +4,29 @@
       <li>
         <router-link to="/">
           <span class="iconfont icon-1"></span>
-			      首页
 		    </router-link>
       </li>
 
       <li>
         <router-link to="/classs">
           <span class="iconfont icon-huangguan"></span>
-			      VIP
 		    </router-link>
       </li>
       <li>
         <router-link to="/shopping">
           <span class="iconfont icon-xintubiao-"></span>
-			      心事
 			  </router-link>
       </li>
       <li>
         <router-link to="/message">
           <span class="iconfont icon-xiaoxi"></span>
-			      消息
+
 			  </router-link>
       </li>
 
       <li>
         <router-link to="/my">
           <span class="iconfont icon-wode"></span>
-            我的
         </router-link>
       </li>
     </ul>
@@ -62,7 +58,7 @@
   .myfooter{
     width: 100%;
     height: 1rem;
-    background-color:#7D39A0;
+    background-color:#cccccc;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -75,7 +71,7 @@
     height: 100%;
     font-size: .12rem;
     list-style: none;
-    margin-top: 0.1rem;
+    margin-top: 0.25rem;
   }
   a{
 	display: flex;

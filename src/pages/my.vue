@@ -110,12 +110,12 @@
 		<!-- 为你推荐 -->
 		<div class="recommendPosition">
 			<div class="recommend-title">
-				<p class="title">推荐倾听</p>
-				<div class="line"></div>
+				<!--<p class="title">推荐倾听</p>-->
+				<!--<div class="line"></div>-->
 			</div>
 		</div>
 		<!-- 商品详情 -->
-		<div class="section-cateList-wrap">
+		<!--<div class="section-cateList-wrap">
 			<ul>
 				<li>
 					<router-link to="/">
@@ -295,7 +295,7 @@
 					</router-link>
 				</li>
 			</ul>
-		</div>
+		</div>-->
 		<div class="drowback" v-if="active" >
 			<div class="by-lightbox-box">
 				<div class="by-lightbox-content">
@@ -477,16 +477,16 @@
 	}
 
 	.order-all img {
-		width: .48rem;
-		height: .48rem;
+		width: .44rem;
+		height: .44rem;
 	}
 
 	.order-all p {
 		height: 0.3rem;
 		line-height: 0.44rem;
-		font-size: 0.12rem;
+		font-size: 0.24rem;
 		color: #666;
-		margin-top: 0.06rem;
+		margin-top: 0.08rem;
 	}
 	.order-line {
 		width: .18rem;
