@@ -7,6 +7,7 @@ import "./assets/js/rem.js"
 import  './assets/css/public.css'
 Vue.config.productionTip = false
 import myjquery from '@/assets/js/myjquery'
+/*import iconfont from '@/assets/font_s1es48rez4e/iconfont'*/
 Vue.use(myjquery)
 /* eslint-disable no-new */
 new Vue({
