@@ -1,453 +1,440 @@
 <template>
-	<div class="index myindex">
-<!--		<div class="dexe">-->
-<!--			<div class="money"><span>50元</span></div>-->
-<!--			<div class="down">-->
-<!--				<p><dtime></dtime>后过期</p>-->
-<!--				<p>下载app领取新用户限量专属特权</p>-->
-<!--			</div>-->
-<!--		</div>-->
-		<div class="indexheader">
+  <div class="index myindex">
+    <div class="indexheader">
+      <serch></serch>
+      <indexnav></indexnav>
+      <myfooter></myfooter>
+    </div>
+    <!-- 顶部轮播 -->
+    <div class="swiperbox">
+      <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="../assets/img/bg1.jpg"></div>
+          <div class="swiper-slide"><img src="../assets/img/bg2.jpg"></div>
+          <div class="swiper-slide"><img src="../assets/img/bg3.jpg"></div>
+          <div class="swiper-slide"><img src="../assets/img/bg4.jpg"></div>
+          <div class="swiper-slide"><img src="../assets/img/bg5.jpg"></div>
+          <div class="swiper-slide"><img src="../assets/img/bg6.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
 
-			<serch></serch>
-			<indexnav></indexnav>
-			<myfooter></myfooter>
-		</div>
+    <!--聊聊专区-->
 
-		<!-- 轮播 -->
-		<div class="swiper-container">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide"><img src="../assets/img/bg1.jpg"></div>
-				<div class="swiper-slide"><img src="../assets/img/bg2.jpg"></div>
-				<div class="swiper-slide"><img src="../assets/img/bg3.jpg"></div>
-				<div class="swiper-slide"><img src="../assets/img/bg4.jpg"></div>
-				<div class="swiper-slide"><img src="../assets/img/bg5.jpg"></div>
-				<div class="swiper-slide"><img src="../assets/img/bg6.jpg"></div>
-			</div>
-			<!-- Add Pagination -->
-			<div class="swiper-pagination"></div>
-		</div>
-		<div class="bread">
-			<ul>
-				<li>大牌品质</li>
-				<li>工场特价</li>
-				<li>分期支付</li>
-				<li>顺丰包邮</li>
-				<li>无忧退款</li>
-			</ul>
-		</div>
-		<div class="shop-nav">
-			<ul>
-				<li>
-					<a href="#">
-						<img src="../assets/img/li1.png">
-						<span>品质男装</span>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<p>
-							<img src="../assets/img/li21.png">
-						</p>
-						<img src="../assets/img/li22.png">
-						<span>定制咖啡</span>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<p>
-							<img src="../assets/img/li31.png" style="margin-left: .2rem;">
-						</p>
-						<img src="../assets/img/li32.png">
-						<span>每日签到</span>
-					</a>
-				</li>
-				<li>
-					<router-link to="/newproductList">
-						<p class='ZXC'>99+</p>
-						<img src="../assets/img/li42.png">
-						<span>每日上新</span>
-					</router-link>
-				</li>
-				<li>
-					<a href="#">
-						<img src="../assets/img/li5.png">
-						<span>生鲜直供</span>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="goods">
-			<span>热销.好评</span>
-			<p>用户购买热度实时推荐</p>
-		</div>
-		<div class="list">
-			<ul>
-				<li>
-					<img src="../assets/img/list1.jpg">
-					<p class="price"><span>￥</span><span>89</span></p>
-					<p class="labels"><span>精选</span><span>一起拼</span></p>
-					<p class="list-sub">青岛海域产地直供</p>
-					<p class="list-title">青岛鲜冻大粒扇贝柱 1000g</p>
-					<p class="comment">166条好评</p>
-				</li>
-				<li>
-					<img src="../assets/img/list2.jpg">
-					<p class="price"><span>￥</span><span>89</span></p>
-					<p class="labels"><span>精选</span><span>一起拼</span></p>
-					<p class="list-sub">青岛海域产地直供</p>
-					<p class="list-title">青岛鲜冻大粒扇贝柱 1000g</p>
-					<p class="comment">166条好评</p>
-				</li>
-				<li>
-					<img src="../assets/img/list3.jpg">
-					<p class="price"><span>￥</span><span>89</span></p>
-					<p class="labels"><span>精选</span><span>一起拼</span></p>
-					<p class="list-sub">青岛海域产地直供</p>
-					<p class="list-title">青岛鲜冻大粒扇贝柱 1000g</p>
-					<p class="comment">166条好评</p>
-				</li>
-				<li>
-					<img src="../assets/img/list4.jpg">
-					<p class="price"><span>￥</span><span>89</span></p>
-					<p class="labels"><span>精选</span><span>一起拼</span></p>
-					<p class="list-sub">青岛海域产地直供</p>
-					<p class="list-title">青岛鲜冻大粒扇贝柱 1000g</p>
-					<p class="comment">166条好评</p>
-				</li>
-				<li>
-					<img src="../assets/img/list1.jpg">
-					<p class="price"><span>￥</span><span>89</span></p>
-					<p class="labels"><span>精选</span><span>一起拼</span></p>
-					<p class="list-sub">青岛海域产地直供</p>
-					<p class="list-title">青岛鲜冻大粒扇贝柱 1000g</p>
-					<p class="comment">166条好评</p>
-				</li>
-				<li>
-					<img src="../assets/img/list3.jpg">
-					<p class="price"><span>￥</span><span>89</span></p>
-					<p class="labels"><span>精选</span><span>一起拼</span></p>
-					<p class="list-sub">青岛海域产地直供</p>
-					<p class="list-title">青岛鲜冻大粒扇贝柱 1000g</p>
-					<p class="comment">166条好评</p>
-				</li>
-			</ul>
-		</div>
-		<div class="histop">
-			<img v-if="btnFlag" class="go-top" src="../assets/img/top.png" @click="backTop">
-		</div>
-	</div>
+    <div class="chat">
+      <span style="color: cornflowerblue">-----聊聊专区-----</span>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>11111</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>张三</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>11111</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>李四</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>王五</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>赵六</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <a href=""><span>更多聊友<i>&gt;</i></span></a>
+    </div>
+
+    <!--关注专区-->
+
+    <div class="chat">
+      <span style="color: cornflowerblue">-----关注专区-----</span>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>11111</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>张三</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>11111</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>李四</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>王五</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>赵六</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <a href=""><span>更多用户<i>&gt;</i></span></a>
+    </div>
+
+    <!--倾听专区-->
+
+    <div class="chat">
+      <span style="color: brown">-----倾听专区-----</span>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>11111</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>11111</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>11111</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>11111</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>11111</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../assets/img/bg2.jpg">
+              <span>11111</span>
+              <a href=""><i>个人简介></i></a>
+            </div>
+          </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        </div>
+      <a href=""><span>更多倾听者<i>&gt;</i></span></a>
+    </div>
+
+  </div>
 </template>
 
 <script>
-	// 引入swiper插件js
-	import Swiper from "swiper"
-	import serch from "../components/serch"
-	import indexnav from "../components/indexnav"
-	import myfooter from "../components/myfooter"
-	import dtime from "../components/dtime"
-	export default {
+    // 引入swiper插件js
+    import Swiper from "swiper"
+    import serch from "../components/serch"
+    import indexnav from "../components/indexnav"
+    import myfooter from "../components/myfooter"
+    import dtime from "../components/dtime"
+    export default {
 
-		name: 'index',
-		data() {
-			return {
-				btnFlag:true,
-			}
-		},
-		components: {
-			serch: serch,
-			indexnav: indexnav,
-			dtime:dtime,
-			myfooter:myfooter
+        name: 'index',
+        data() {
+            return {
+                btnFlag: true,
+            }
+        },
+        components: {
+            serch: serch,
+            indexnav: indexnav,
+            dtime: dtime,
+            myfooter: myfooter
 
-		},
-		created() {
+        },
+        created() {
 
-		},
-		mounted() {
-			this.myswipery()
-			// this.scrollToTop()
-		},
+        },
+        mounted() {
+            this.myswipery1()
+            this.myswipery()
 
-		methods: {
-			// 置顶
-			backTop(){
-				this.$el.scrollTop=0
-			},
-			scrollToTop(){
-				const that = this
-				let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
-				that.scrollTop = scrollTop
-				if (that.scrollTop>20) {
-					that.btnFlag = true
-				} else{
-					that.btnFlag = false
-				}
-			},
-			// 轮播
-			myswipery: function() {
-				var swiper = new Swiper('.swiper-container', {
-					 spaceBetween: 30,
-					      centeredSlides: true,
-					      autoplay: {
-					        delay: 2500,
-					        disableOnInteraction: false,
-					      },
-					pagination: {
-						el: '.swiper-pagination',
-						clickable: true,
-					},
-					// 上一个下一个
-					  navigation: {
-					        nextEl: '.swiper-button-next',
-					        prevEl: '.swiper-button-prev',
-					      },
-				});
-			}
-		}
-	}
+            this.scrollToTop()
+        },
+
+        methods: {
+            // 置顶
+            // backTop(){
+            // 	this.$el.scrollTop=0
+            // },
+            // scrollToTop(){
+            // 	const that = this
+            // 	let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+            // 	that.scrollTop = scrollTop
+            // 	if (that.scrollTop>20) {
+            // 		that.btnFlag = true
+            // 	} else{
+            // 		that.btnFlag = false
+            // 	}
+            // },
+
+            // 顶部轮播图
+            myswipery: function() {
+                var swiper = new Swiper('.swiperbox .swiper-container', {
+                    autoplay: true,
+                    loop: true,
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    observer: true, //修改swiper自己或子元素时，自动初始化swiper
+                    observeParents: true, //修改swiper的父元素时，自动初始化swiper
+                });
+            },
+
+            // 底部轮播
+            myswipery1: function() {
+                var swiperswiper = new Swiper('.chat .swiper-container', {
+                    // direction: 'vertical', // 垂直切换选项
+                    pagination: '.swiper-pagination',
+                    slidesPerView: 3,
+                    paginationClickable: true,
+                    spaceBetween: 30
+                });
+            }
+        }
+    }
 </script>
 
 <style>
-	/* 引入swiper  css */
-	@import url("../../node_modules/swiper/css/swiper.css");
-	/*.dexe{*/
-	/*	width:100%;*/
-	/*	height: 1rem;*/
-	/*	display: flex;*/
-	/*	align-items: center;*/
-	/*	background:url(../assets/img/indextop.jpg);*/
-	/*	background-size: 100%;*/
-	/*	color: #fff;*/
-	/*}*/
-	/*.dexe .money{*/
-	/*	width: 1.35rem;*/
-	/*}*/
-	/*.dexe .money span{*/
-	/*	display: inline-block;*/
-	/*	width: 1.35rem;*/
-	/*	color: #fff;*/
-	/*	text-align: center;*/
-	/*	border-right: #fff solid .015rem;*/
-	/*}*/
-	/*.dexe .down{*/
-	/*	margin-left: .2rem;*/
-	/*}*/
-	/*.dexe .down p{*/
-	/*	font-size: .22rem;*/
-	/*}*/
-	/*.dexe .down p:nth-of-type(1){*/
-	/*	display: flex;*/
-	/*}*/
-	.myindex {
-		background: #F4F4F4;
-		overflow-y: scroll;
-		position: fixed;
-		left: 0;
-		bottom: 1rem;
-	}
-	.indexheader {
-		background: #fff;
-	}
+  @import url("../../node_modules/swiper/css/swiper.css");
 
-	.swiper-container {
-		width: 100%;
-		height: 2.5rem;
-		position: relative;
-	}
-	.swiper-container .swiper-pagination{
-		width: 2.5rem;
-		position: absolute;
-		bottom: .2rem;
-		left: 5rem;
-	}
-	.swiper-pagination .swiper-pagination-bullet{
-		background: none;
-	}
-	.swiper-container .swiper-pagination .swiper-pagination-bullet-active{
-		background: #f7b200;
-		border: .02rem solid #f7b200;
-	}
-	.swiper-pagination span{
-		border: .02rem solid #7f4395;
-	}
-	.swiper-slide {
-		text-align: center;
-		font-size: 18px;
-		background: #fff;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
-		-webkit-justify-content: center;
-		justify-content: center;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		-webkit-align-items: center;
-		align-items: center;
-	}
+  /*顶部轮播图*/
 
-	.swiper-slide img {
-		width: 100%;
-		height: 100%;
-	}
+  * {
+    margin: 0 auto;
+  }
 
-	.bread {
-		background: #fff;
-	}
+  .myindex {
+    background: #BBBBBB;
+    overflow-y: scroll;
+    position: fixed;
+    left: 0;
+    bottom: 1rem;
+  }
 
-	.bread ul {
-		display: flex;
-	}
+  .indexheader {
+    background: #fff;
+  }
 
-	.bread ul li {
-		flex: 1;
-		height: .5rem;
-		line-height: .5rem;
-		text-align: center;
-		font-size: .24rem;
-		color: #9687a4;
-		list-style: none;
-	}
+  .swiper-container {
+    width: 100%;
+    height: 2.5rem;
+    position: relative;
+  }
 
-	.shop-nav {
-		background: #fff;
-		padding: .22rem .15rem;
-		box-sizing: border-box;
-	}
+  .swiper-container .swiper-pagination {
+    width: 2.5rem;
+    position: absolute;
+    bottom: .2rem;
+    left: 5rem;
+  }
 
-	.shop-nav ul {
-		display: flex;
-		width: 100%;
-	}
+  .swiper-container img {
+    width: 100%;
+    height: 100%;
+  }
 
-	.shop-nav ul li {
-		flex: 1;
-		text-align: center;
-		font-size: .26rem;
-		color: #9687a4;
-		list-style: none;
-	}
+  .swiper-pagination span {
+    border: .02rem solid #7f4395;
+  }
 
-	.shop-nav ul li a {
-		display: flex;
-		height: 1.2rem;
-		flex-direction: column;
-		justify-content: flex-end;
-		color: #666;
-	}
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
 
-	.shop-nav ul li a p img {
-		width: 90%;
-		height: .3rem;
-		margin-left: 0;
-	}
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+  }
 
-	.shop-nav ul li img {
-		margin-left: .5rem;
-		width: .46rem;
-		height: .46rem;
-	}
+  /*轮播图*/
 
-	.ZXC {
-		width: .5rem;
-		height: .3rem;
-		color: #fff;
-		line-height: .3rem;
-		margin-left: .9rem;
-		background: url(../assets/img/li41.png) no-repeat;
-		background-size: 100% 100%;
-	}
+  .chat {
+    width: 100%;
+    height: 3.65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .2rem;
+    padding-top: .28rem;
+    padding-bottom: .14rem;
+    background-color: white;
+  }
 
-	.goods {
-		width: 100%;
-		height: 1.25rem;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background: #fff;
-		margin-top: .2rem;
-		padding-top: .28rem;
-		padding-bottom: .14rem;
-	}
+  .chat {}
 
-	.goods span {
-		display: inline-block;
-		height: .4rem;
-		margin: 0 auto .1rem;
-		font-size: .28rem;
-		border-bottom: solid .02rem #4A4A4A;
-	}
-	.goods p{
-		color:#CCB17A;
-	}
-	.list ul{
-		width: 100%;
-		background: #fff;
-	}
-	.list ul li{
-		width: 49.73%;
-		float: left;
-		background: #fff;
-		border-bottom: .02rem solid #F4F4F4;
-		border-right: .02rem solid #F4F4F4;
-		padding-bottom: .28rem;
-		box-sizing: border-box;
-	}
-	.list ul li img{
-		width: 100%;
-	}
-	.list ul li .price{
-		color: #F7A701;
-		font-size: .32rem;
-	}
-	.list ul li .labels span:nth-of-type(1){
-		display: inline-block;
-		background: #AB7FD1;
-		color: #fff;
-		font-size: .12rem;
-		width: .55rem;
-		height: .35rem;
-		text-align: center;
-	}
-	.list ul li .labels span:nth-of-type(2){
-		display: inline-block;
-		border: 0.01rem solid #FB4C81;
-		color: #FB4C81;
-		font-size: .12rem;
-		width: 1rem;
-		height: .35rem;
-		text-align: center;
-		margin-left: .1rem;
-	}
-	.list ul li .labels{
-		margin-bottom: .08rem;
-	}
-	.list ul li .list-sub{
-		color: #BF9E6B;
-		font-size: .24rem;
-		margin-bottom: .08rem;
-	}
-	.list ul li .list-title{
-		color: #4A4A4A;
-		font-size: .25rem;
-		margin-bottom: .08rem;
-	}
-	.list ul li .comment{
-		color: #BBB;
-		font-size: .2rem;
-	}
-	.list ul li p{
-		padding-left: .24rem;
-		box-sizing: border-box;
-	}
-	.histop{
-		width: .8rem;
-		height: .8rem;
-		position:fixed;
-		right: .2rem;
-		bottom: 1.2rem;
-	}
+  /*.bread {*/
+  /*  width: 2.5rem;*/
+  /*  height: 3rem;*/
+  /*  background-color: wheat;*/
+  /*  border-radius: 12%;*/
+  /*}*/
+
+  .swiper-container {
+    border-radius: 12%;
+  }
+
+  .liao {
+    height: 100%;
+    width: 100%;
+    background-color: powderblue;
+  }
+
+  .chat .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .chat .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .liao {
+    border-radius: 16%;
+    height: 88%;
+  }
+
+  .liao img {
+    width: 50%;
+    height: 32%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+  }
+
+  .liao span {
+    display: flex;
+    justify-content: center;
+  }
+
+  .liao i {
+    font-size: 8px;
+    color: blue;
+    margin-left: 1rem;
+  }
+  .chat span i {
+    color: #FF7A00;
+  }
+
 </style>

@@ -58,7 +58,7 @@
   .myfooter{
     width: 100%;
     height: 1rem;
-    background-color:#cccccc;
+    background-color:#7D39A0;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -71,7 +71,7 @@
     height: 100%;
     font-size: .12rem;
     list-style: none;
-    margin-top: 0.25rem;
+    margin-top: 0.1rem;
   }
   a{
 	display: flex;
