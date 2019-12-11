@@ -22,12 +22,12 @@
 			  </router-link>
       </li>
 
-<!--      <li>-->
-<!--        <router-link to="/message">-->
-<!--			    <img src="../assets/img/my.png" alt="">-->
-<!--			      消息-->
-<!--			  </router-link>-->
-<!--      </li>-->
+      <li>
+        <router-link to="/message">
+			    <img src="../assets/img/my.png" alt="">
+			      消息
+			  </router-link>
+      </li>
 
       <li>
         <router-link to="/my">

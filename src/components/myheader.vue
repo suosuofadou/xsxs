@@ -1,9 +1,8 @@
 <template>
   <div class="myheader">
-    
-   
+
+
     </div>
-  </div>
 </template>
 
 <script>
@@ -25,6 +24,6 @@ export default {
     top: 0;
     left: 0;
   }
- 
-  
+
+
 </style>
