@@ -6,22 +6,22 @@
 			<div class="person-info">
 				<div class="person-name">
 					<p>178****8917</p>&nbsp;&nbsp;&nbsp;
-          <img src="../assets/images/erji1.png" alt="">
+          <img src="../../assets/images/erji1.png" alt="">
 				</div>
 				<div class="person-level">
-					<img src="../assets/images/huiyaun.png" />
+					<img src="../../assets/images/huiyaun.png" />
 				</div>
 			</div>
 			<ul>
 				<li>
 					<router-link to="/serviceList">
-						<img src="../assets/images/ptfw.png" />
+						<img src="../../assets/images/ptfw.png" />
 						<p>会员中心</p>
 					</router-link>
 				</li>
 				<li>
 					<router-link to="/setting">
-						<img src="../assets/images/shezhi.png" />
+						<img src="../../assets/images/shezhi.png" />
 						<p>设置</p>
 					</router-link>
 				</li>
@@ -54,32 +54,32 @@
 		<div class="order-panel">
 			<div class="order-all">
 				<router-link to="/orderlist">
-					<img src="../assets/images/lvsefenkaicankaoxianban-.png" />
+					<img src="../../assets/images/lvsefenkaicankaoxianban-.png" />
 					<p>我的订单</p>
 				</router-link>
 			</div>
 			<ul>
 				<li>
 					<router-link to="">
-						<img src="../assets/images/iconzhengli-.png">
+						<img src="../../assets/images/iconzhengli-.png">
 						<p>我的钱包</p>
 					</router-link>
 				</li>
 				<li>
 					<router-link to="">
-						<img src="../assets/images/chongzhi.png">
+						<img src="../../assets/images/chongzhi.png">
 						<p>钱包充值</p>
 					</router-link>
 				</li>
 				<li>
 					<router-link to="">
-						<img src="../assets/images/fabu-.png">
+						<img src="../../assets/images/fabu-.png">
 						<p>我的发布</p>
 					</router-link>
 				</li>
 				<li class="drawback" @click="droback()">
 					<router-link to="">
-						<img src="../assets/images/huodong.png">
+						<img src="../../assets/images/huodong.png">
 						<p>超值活动</p>
 					</router-link>
 				</li>
@@ -88,24 +88,24 @@
 		<!-- nav -->
 		<div class="entry-wrapper">
       <a href="#">
-        <img src="../assets/images/hearts.png" alt="">
+        <img src="../../assets/images/hearts.png" alt="">
         <span>心情日记</span>
       </a>
 		</div>
     <div class="entry-wrapper">
-      <a href="#"><img src="../assets/images/ren.png" alt=""><span>成为倾听者</span></a>
+      <a href="#"><img src="../../assets/images/ren.png" alt=""><span>成为倾听者</span></a>
     </div>
     <div class="entry-wrapper">
-      <a href="#"><img src="../assets/images/wenti.png" alt=""><span>常见问题</span></a>
+      <a href="#"><img src="../../assets/images/wenti.png" alt=""><span>常见问题</span></a>
     </div>
     <div class="entry-wrapper">
-      <a href="#"><img src="../assets/images/dianhua.png" alt=""><span>客服电话</span></a>
+      <a href="#"><img src="../../assets/images/dianhua.png" alt=""><span>客服电话</span></a>
     </div>
     <div class="entry-wrapper">
-      <a href="#"><img src="../assets/images/yijianfankui.png" alt=""><span>意见反馈</span></a>
+      <a href="#"><img src="../../assets/images/yijianfankui.png" alt=""><span>意见反馈</span></a>
     </div>
     <div class="entry-wrapper">
-      <a href="#"><img src="../assets/images/tuichu.png" alt=""><span>退出账号</span></a>
+      <a href="#"><img src="../../assets/images/tuichu.png" alt=""><span>退出账号</span></a>
     </div>
 		<!-- 为你推荐 -->
 		<div class="recommendPosition">
@@ -115,187 +115,6 @@
 			</div>
 		</div>
 		<!-- 商品详情 -->
-		<!--<div class="section-cateList-wrap">
-			<ul>
-				<li>
-					<router-link to="/">
-						<img src="../assets/images/cafeiji.jpg">
-						<div class="price">
-							<span>￥</span>
-							<span>499</span>
-						</div>
-						<div class="labels">
-							<span class="togther">一起拼</span>
-						</div>
-						<div class="module-subtitle">飞利浦制造商</div>
-						<div class="module-title">豆粉茶三用全自动咖啡机</div>
-						<div class="last-line">
-							<span class="comment">295条好评</span>
-						</div>
-					</router-link>
-				</li>
-				<li>
-					<router-link to="/">
-						<img src="../assets/images/zhqiji.jpg">
-						<div class="price">
-							<span>￥</span>
-							<span>399</span>
-						</div>
-						<div class="labels">
-							<span class="togther">一起拼</span>
-						</div>
-						<div class="module-subtitle">飞利浦制造商</div>
-						<div class="module-title">压力咖啡机胶囊机蒸汽奶泡</div>
-						<div class="last-line">
-							<span class="comment">1204条好评</span>
-						</div>
-					</router-link>
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<router-link to="/">
-						<img src="../assets/images/kouhong.jpg">
-						<div class="price">
-							<span>￥</span>
-							<span>78</span>
-						</div>
-						<div class="labels">
-							<span class="togther">一起拼</span>
-						</div>
-						<div class="module-subtitle">LANCOME同原料制造商</div>
-						<div class="module-title">魅惑倾城思慕口红</div>
-						<div class="last-line">
-							<span class="comment">208条好评</span>
-						</div>
-					</router-link>
-				</li>
-				<li>
-					<router-link to="/">
-						<img src="../assets/images/kuaizi.jpg">
-						<div class="price">
-							<span>￥</span>
-							<span>89</span>
-						</div>
-						<div class="labels">
-							<span class="togther">一起拼</span>
-						</div>
-						<div class="module-subtitle">WMF制造商</div>
-						<div class="module-title">304不锈钢筷子10双装</div>
-						<div class="last-line">
-							<span class="comment">2857条好评</span>
-						</div>
-					</router-link>
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<router-link to="/">
-						<img src="../assets/images/jinghuqye.jpg">
-						<div class="price">
-							<span>￥</span>
-							<span>139</span>
-						</div>
-						<div class="labels">
-							<span class="togther">一起拼</span>
-						</div>
-						<div class="module-subtitle">POLA同原料制造商</div>
-						<div class="module-title">热感抗皱精华液</div>
-						<div class="last-line">
-							<span class="comment">3937条好评</span>
-						</div>
-					</router-link>
-				</li>
-				<li>
-					<router-link to="/">
-						<img src="../assets/images/shoes.jpg">
-						<div class="price">
-							<span>￥</span>
-							<span>369</span>
-						</div>
-						<div class="labels">
-							<span class="togther">一起拼</span>
-						</div>
-						<div class="module-subtitle">Calvin Klein制造商</div>
-						<div class="module-title">男士弹力系带 皱感小白鞋</div>
-						<div class="last-line">
-							<span class="comment">369条好评</span>
-						</div>
-					</router-link>
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<router-link to="/">
-						<img src="../assets/images/eyesjing.jpg">
-						<div class="price">
-							<span>￥</span>
-							<span>269</span>
-						</div>
-						<div class="labels">
-							<span class="togther">一起拼</span>
-						</div>
-						<div class="module-subtitle">依视路制造商</div>
-						<div class="module-title">经典.飞行员-B·可配度数</div>
-						<div class="last-line">
-							<span class="comment">751条好评</span>
-						</div>
-					</router-link>
-				</li>
-				<li>
-					<router-link to="/">
-						<img src="../assets/images/kuzi.jpg">
-						<div class="price">
-							<span>￥</span>
-							<span>259</span>
-						</div>
-						<div class="labels">
-							<span class="togther">一起拼</span>
-						</div>
-						<div class="module-subtitle">Balenciaga制造商</div>
-						<div class="module-title">绒里人字纹九分直筒裤</div>
-						<div class="last-line">
-						</div>
-					</router-link>
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<router-link to="/">
-						<img src="../assets/images/foodmuer.jpg">
-						<div class="price">
-							<span>￥</span>
-							<span>138</span>
-						</div>
-						<div class="labels">
-							<span class="togther">一起拼</span>
-						</div>
-						<div class="module-subtitle">海螺国际大酒店正餐制造商</div>
-						<div class="module-title">青春常驻组合菜 【4盒装】</div>
-						<div class="last-line">
-							<span class="comment">76条好评</span>
-						</div>
-					</router-link>
-				</li>
-				<li>
-					<router-link to="/">
-						<img src="../assets/images/miupai.jpg">
-						<div class="price">
-							<span>￥</span>
-							<span>133</span>
-						</div>
-						<div class="labels">
-							<span class="togther">一起拼</span>
-						</div>
-						<div class="module-subtitle">海螺国际大酒店正餐制造商</div>
-						<div class="module-title">黑椒牛排【3盒装】</div>
-						<div class="last-line">
-							<span class="comment">1338条好评</span>
-						</div>
-					</router-link>
-				</li>
-			</ul>
-		</div>-->
 		<div class="drowback" v-if="active" >
 			<div class="by-lightbox-box">
 				<div class="by-lightbox-content">
@@ -312,7 +131,7 @@
 </template>
 
 <script scoped="scoped">
-	import myfooter from "../components/myfooter.vue"
+	import myfooter from "../../components/myfooter.vue"
 	export default {
 		name: '',
 		data() {
@@ -359,7 +178,7 @@
 		height: 0.8rem;
 		border-radius: 50%;
 		border: 0.05rem solid #fff;
-		background: url(../assets/images/297762.jpg) no-repeat;
+		background: url(../../assets/images/297762.jpg) no-repeat;
 		background-size: 100%;
 	}
 
@@ -394,7 +213,7 @@
 		height: 0.42rem;
 		margin-left: 0.12rem;
 		position: relative;
-		background: url(../assets/images/kefu.png) no-repeat;
+		background: url(../../assets/images/kefu.png) no-repeat;
 		background-size: 100% 100%;
 	}
 

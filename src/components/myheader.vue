@@ -1,7 +1,6 @@
 <template>
   <div class="myheader">
 
-
     </div>
 </template>
 

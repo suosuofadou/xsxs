@@ -2,19 +2,18 @@
   <div class="index myindex">
     <div class="indexheader">
       <serch></serch>
-      <indexnav></indexnav>
       <myfooter></myfooter>
     </div>
     <!-- 顶部轮播 -->
     <div class="swiperbox">
       <div class="swiper-container swiper1">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="../assets/img/bg1.jpg"></div>
-          <div class="swiper-slide"><img src="../assets/img/bg2.jpg"></div>
-          <div class="swiper-slide"><img src="../assets/img/bg3.jpg"></div>
-          <div class="swiper-slide"><img src="../assets/img/bg4.jpg"></div>
-          <div class="swiper-slide"><img src="../assets/img/bg5.jpg"></div>
-          <div class="swiper-slide"><img src="../assets/img/bg6.jpg"></div>
+          <div class="swiper-slide"><img src="../../assets/img/bg1.jpg"></div>
+          <div class="swiper-slide"><img src="../../assets/img/bg2.jpg"></div>
+          <div class="swiper-slide"><img src="../../assets/img/bg3.jpg"></div>
+          <div class="swiper-slide"><img src="../../assets/img/bg4.jpg"></div>
+          <div class="swiper-slide"><img src="../../assets/img/bg5.jpg"></div>
+          <div class="swiper-slide"><img src="../../assets/img/bg6.jpg"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -23,55 +22,67 @@
     <!--聊聊专区-->
 
     <div class="chat">
-      <span style="color: cornflowerblue">-----聊聊专区-----</span>
+      <span style="color: brown">-----聊聊专区-----</span>
       <div class="swiper-container">
         <div class="swiper-wrapper">
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>张三</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>李四</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>王五</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>赵六</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
@@ -79,7 +90,7 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
       </div>
-      <a href=""><span>更多聊友<i>&gt;</i></span></a>
+      <a href=""><span class="base">更多聊友<i>&gt;</i></span></a>
     </div>
 
     <!--关注专区-->
@@ -91,49 +102,61 @@
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>张三</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>李四</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>王五</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>赵六</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
@@ -141,61 +164,73 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
       </div>
-      <a href=""><span>更多用户<i>&gt;</i></span></a>
+      <a href=""><span class="base">更多用户<i>&gt;</i></span></a>
     </div>
 
     <!--倾听专区-->
 
     <div class="chat">
-      <span style="color: brown">-----倾听专区-----</span>
+      <span style="color: green">-----倾听专区-----</span>
       <div class="swiper-container">
         <div class="swiper-wrapper">
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
           <div class="swiper-slide">
             <div class="liao">
-              <img src="../assets/img/bg2.jpg">
+              <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
-              <a href=""><i>个人简介></i></a>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
             </div>
           </div>
 
@@ -203,7 +238,7 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
         </div>
-      <a href=""><span>更多倾听者<i>&gt;</i></span></a>
+      <a href=""><span class="base">更多倾听者<i>&gt;</i></span></a>
     </div>
 
   </div>
@@ -212,13 +247,11 @@
 <script>
     // 引入swiper插件js
     import Swiper from "swiper"
-    import serch from "../components/serch"
-    import indexnav from "../components/indexnav"
-    import myfooter from "../components/myfooter"
-    import dtime from "../components/dtime"
+    import serch from "../../components/serch"
+    import myfooter from "../../components/myfooter"
     export default {
 
-        name: 'index',
+        name: 'home',
         data() {
             return {
                 btnFlag: true,
@@ -226,8 +259,6 @@
         },
         components: {
             serch: serch,
-            indexnav: indexnav,
-            dtime: dtime,
             myfooter: myfooter
 
         },
@@ -277,7 +308,7 @@
                     pagination: '.swiper-pagination',
                     slidesPerView: 3,
                     paginationClickable: true,
-                    spaceBetween: 30
+                    spaceBetween: 3
                 });
             }
         }
@@ -285,16 +316,17 @@
 </script>
 
 <style>
-  @import url("../../node_modules/swiper/css/swiper.css");
+  @import url("../../../node_modules/swiper/css/swiper.css");
 
   /*顶部轮播图*/
 
   * {
     margin: 0 auto;
+    padding: 0 auto;
   }
 
   .myindex {
-    background: #BBBBBB;
+    background: #cccccc;
     overflow-y: scroll;
     position: fixed;
     left: 0;
@@ -315,7 +347,7 @@
     width: 2.5rem;
     position: absolute;
     bottom: .2rem;
-    left: 5rem;
+    left: 2.5rem;
   }
 
   .swiper-container img {
@@ -354,17 +386,15 @@
 
   .chat {
     width: 100%;
-    height: 3.65rem;
+    height: 4.3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: .2rem;
+    margin-bottom: .05rem;
     padding-top: .28rem;
     padding-bottom: .14rem;
     background-color: white;
   }
-
-  .chat {}
 
   /*.bread {*/
   /*  width: 2.5rem;*/
@@ -372,10 +402,6 @@
   /*  background-color: wheat;*/
   /*  border-radius: 12%;*/
   /*}*/
-
-  .swiper-container {
-    border-radius: 12%;
-  }
 
   .liao {
     height: 100%;
@@ -411,11 +437,12 @@
   .liao {
     border-radius: 16%;
     height: 88%;
+    border: 2px solid #cccccc;
   }
 
   .liao img {
     width: 50%;
-    height: 32%;
+    height: 38%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -436,5 +463,10 @@
   .chat span i {
     color: #FF7A00;
   }
-
+  span {
+    font-weight: bold;
+  }
+  .base {
+    color: black;
+  }
 </style>

@@ -1,37 +1,47 @@
 <template>
 	<div>
+
 <!--	顶部导航栏-->
 			<div class="shopcart-head">
 				<router-link to="/">
-					<div class="indexicon"><img src="../assets/img/fh.png"/></div>
+					<div class="indexicon"><img src="../../assets/img/fh.png"/></div>
 				</router-link>
-				<p class="escp">心事</p>
+				<p class="escp">心&nbsp;事</p>
 			</div>
-    <!--<div class="nav_head">
-      <ul>
-        <li>故事</li>
-        <li>心情</li>
-        <li>干货</li>
-        <li>文章</li>
-      </ul>
-    </div>-->
+
     <mt-navbar v-model="selected">
-      <mt-tab-item id="1">option A</mt-tab-item>
-      <mt-tab-item id="2">option B</mt-tab-item>
-      <mt-tab-item id="3">option C</mt-tab-item>
+      <mt-tab-item id="1">故事</mt-tab-item>
+      <mt-tab-item id="2">心情</mt-tab-item>
+      <mt-tab-item id="3">干货</mt-tab-item>
+      <mt-tab-item id="4">文章</mt-tab-item>
     </mt-navbar>
 
     <!-- tab-container -->
+
+      <!--故事-->
     <mt-tab-container v-model="selected">
       <mt-tab-container-item id="1">
-        <mt-cell v-for="n in 10" :title="'content ' + n" />
+        <mt-cell v-for="n in 10" :title="'内容 ' + n" />
       </mt-tab-container-item>
+
+      <!--心情-->
+
       <mt-tab-container-item id="2">
         <mt-cell v-for="n in 4" :title="'content ' + n" />
       </mt-tab-container-item>
+
+      <!--文章-->
+
       <mt-tab-container-item id="3">
         <mt-cell v-for="n in 6" :title="'content ' + n" />
       </mt-tab-container-item>
+
+      <!--心情-->
+
+      <mt-tab-container-item id="4">
+        <mt-cell v-for="n in 6" :title="'content ' + n" />
+      </mt-tab-container-item>
+
     </mt-tab-container>
 		</div>
 
@@ -40,7 +50,7 @@
 <script>
 
 	export default {
-      name: 'shopping'
+      name: 'worry'
   }
 
 </script>
@@ -84,7 +94,7 @@
   .nav_head {
     width: 100%;
     height: 0.8rem;
-    background:url("../../src/assets/img/ys.png")no-repeat;
+    background:url("../../assets/img/ys.png")no-repeat;
   }
   .nav_head li{
     float: left;

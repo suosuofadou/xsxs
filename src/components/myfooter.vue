@@ -8,17 +8,17 @@
       </li>
 
       <li>
-        <router-link to="/classs">
+        <router-link to="/vip">
           <span class="iconfont icon-huangguan"></span>
 		    </router-link>
       </li>
       <li>
-        <router-link to="/shopping">
+        <router-link to="/worry">
           <span class="iconfont icon-xintubiao-"></span>
 			  </router-link>
       </li>
       <li>
-        <router-link to="/message">
+        <router-link to="/news">
           <span class="iconfont icon-xiaoxi"></span>
 
 			  </router-link>
@@ -92,7 +92,7 @@
   }
   li a img{
 	  width: .45rem;
-	  height: .45rem;
+    height: .45rem;
   }
   li a p{
 	  width: 100%;

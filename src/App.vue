@@ -25,7 +25,7 @@
   }
   .index{
     width: 100%;
-    height: 90%;
+    height: 94%;
     position: fixed;
     top: 0rem;
     left: 0;
