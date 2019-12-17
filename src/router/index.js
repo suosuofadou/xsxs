@@ -8,6 +8,8 @@ import login_index from "../pages/my/login_index"
 import login from "../pages/my/login"
 import regist from "../pages/my/regist"
 import my from "../pages/my/my";
+import gushi from "../pages/worry/gushi";
+
 
 Vue.use(Router)
 
@@ -22,10 +24,17 @@ export default new Router({
 			name: 'vip',
 			component: vip
 		},
-		{
-			path: '/worry',
-			name: 'worry',
-			component: worry
+    {
+      path: '/worry',
+      name: 'worry',
+      component: worry,
+      children: [
+        {
+          path: '/gushi',
+          name: 'gushi',
+          component: gushi
+        }
+        ]
 		},
     {
       path: '/news',

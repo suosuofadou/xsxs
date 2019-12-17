@@ -3,7 +3,7 @@
     <ul>
       <li>
         <router-link to="/">
-          <span class="iconfont icon-1"></span>
+          <span @click="" class="iconfont icon-1"></span>
 		    </router-link>
       </li>
 
@@ -87,7 +87,7 @@
 	padding-top: .05rem;
 	box-sizing: border-box;
   }
-  a:hover{
+  .active{
     color: red;
   }
   li a img{
