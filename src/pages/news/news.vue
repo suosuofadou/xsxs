@@ -10,16 +10,120 @@
       <p class="escp">消&nbsp;息</p>
     </div>
 
+<!--    搜索框-->
+      <search></search>
+    <section class="aui-flexView">
+
+
+        <div class="aui-list-box">
+          <a href="javascript:;" class="aui-flex">
+            <div class="aui-flex-logo">
+              <img src="../../assets/images/jinghuqye.jpg" alt="">
+            </div>
+            <div class="aui-flex-box">
+              <h2>金币抵钱</h2>
+              <h3>全场商品可抵</h3>
+            </div>
+            <span class="aui-flex-add">
+              16.23
+            </span>
+          </a>
+          <a href="javascript:;" class="aui-flex">
+            <div class="aui-flex-logo">
+              <img src="../../assets/images/dianhua.png" alt="">
+            </div>
+            <div class="aui-flex-box">
+              <h2>信用白条</h2>
+              <h3>全场商品可抵</h3>
+            </div>
+            <span class="aui-flex-add">
+              16.23
+            </span>
+          </a>
+
+          <a href="javascript:;" class="aui-flex">
+            <div class="aui-flex-logo">
+              <img src="../../assets/images/dingzhicf.png" alt="">
+            </div>
+            <div class="aui-flex-box">
+              <h2>金币抵钱</h2>
+              <h3>全场商品可抵</h3>
+            </div>
+            <span class="aui-flex-add">
+             16.23
+            </span>
+          </a>
+
+          <a href="javascript:;" class="aui-flex">
+            <div class="aui-flex-logo">
+              <img src="../../assets/images/fabu-.png" alt="">
+            </div>
+            <div class="aui-flex-box">
+              <h2>信用白条</h2>
+              <h3>全场商品可抵</h3>
+            </div>
+            <span class="aui-flex-add">
+              16.23
+            </span>
+          </a>
+
+          <a href="javascript:;" class="aui-flex">
+            <div class="aui-flex-logo">
+              <img src="../../assets/images/ren.png" alt="">
+            </div>
+            <div class="aui-flex-box">
+              <h2>金币抵钱</h2>
+              <h3>全场商品可抵</h3>
+            </div>
+            <span class="aui-flex-add">
+             16.23
+            </span>
+          </a>
+
+          <a href="javascript:;" class="aui-flex">
+            <div class="aui-flex-logo">
+              <img src="../../assets/images/dianhua.png" alt="">
+            </div>
+            <div class="aui-flex-box">
+              <h2>信用白条</h2>
+              <h3>全场商品可抵</h3>
+            </div>
+            <span class="aui-flex-add">
+              16.23
+            </span>
+          </a>
+
+          <a href="javascript:;" class="aui-flex">
+            <div class="aui-flex-logo">
+              <img src="../../assets/images/dianhua.png" alt="">
+            </div>
+            <div class="aui-flex-box">
+              <h2>金币抵钱</h2>
+              <h3>全场商品可抵</h3>
+            </div>
+            <span class="aui-flex-add">
+              16.23
+            </span>
+
+          </a>
+        </div>
+    </section>
+
   </div>
 </template>
 
 <script>
+  import search from "../../components/search";
     export default {
-        name: "news"
+        name: "news",
+        components:{
+            search: search,
+        }
     }
 </script>
 
 <style scoped>
+  @import "../../assets/css/style.css";
   .shopcart-head {
     width: 100%;
     height: 0.75rem;
@@ -44,9 +148,9 @@
   .escp {
     width: 4.8rem;
     height: 100%;
+    padding-left: 35%;
     text-align: center;
     line-height: 0.84rem;
-    margin: auto;
     font-size: 0.3rem;
     overflow: hidden;
     text-overflow: ellipsis;
