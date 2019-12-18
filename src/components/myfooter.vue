@@ -3,7 +3,7 @@
     <ul>
       <li>
         <router-link to="/">
-          <span @click="" class="iconfont icon-1"></span>
+          <span class="iconfont icon-1"></span>
 		    </router-link>
       </li>
 

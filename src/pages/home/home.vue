@@ -19,6 +19,71 @@
       </div>
     </div>
 
+    <!-- 导航模块 -->
+    <div class="swiperbox">
+      <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <ul class="nav">
+              <li><span class="iconfont icon-wanhui"><p>情感挽回</p></span></li>
+              <li><span class="iconfont icon-hunyin"><p>婚恋关系</p></span></li>
+              <li><span class="iconfont icon-tongxing"><p>同性恋情</p></span></li>
+              <li><span class="iconfont icon-yiyu"><p>抑郁情绪</p></span></li>
+              <li><span class="iconfont icon-shuimian"><p>催眠</p></span></li>
+              <li><span class="iconfont icon-zixun"><p>心理咨询</p></span></li>
+              <li><span class="iconfont icon-piaoliuping"><p>漂流瓶</p></span></li>
+              <li><span class="iconfont icon-qingsu"><p>马上倾诉</p></span></li>
+              <li><span class="iconfont icon-laba"><p>传声筒</p></span></li>
+              <li><span class="iconfont icon-niandushengdian"><p>年度盛典</p></span></li>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <ul class="nav">
+              <li><span class="iconfont icon-wanhui"><p>情感挽回</p></span></li>
+              <li><span class="iconfont icon-hunyin"><p>婚恋关系</p></span></li>
+              <li><span class="iconfont icon-tongxing"><p>同性恋情</p></span></li>
+              <li><span class="iconfont icon-yiyu"><p>抑郁情绪</p></span></li>
+              <li><span class="iconfont icon-shuimian"><p>催眠</p></span></li>
+              <li><span class="iconfont icon-zixun"><p>心理咨询</p></span></li>
+              <li><span class="iconfont icon-piaoliuping"><p>漂流瓶</p></span></li>
+              <li><span class="iconfont icon-qingsu"><p>马上倾诉</p></span></li>
+              <li><span class="iconfont icon-laba"><p>传声筒</p></span></li>
+              <li><span class="iconfont icon-niandushengdian"><p>年度盛典</p></span></li>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <ul class="nav">
+              <li><span class="iconfont icon-wanhui"><p>情感挽回</p></span></li>
+              <li><span class="iconfont icon-hunyin"><p>婚恋关系</p></span></li>
+              <li><span class="iconfont icon-tongxing"><p>同性恋情</p></span></li>
+              <li><span class="iconfont icon-yiyu"><p>抑郁情绪</p></span></li>
+              <li><span class="iconfont icon-shuimian"><p>催眠</p></span></li>
+              <li><span class="iconfont icon-zixun"><p>心理咨询</p></span></li>
+              <li><span class="iconfont icon-piaoliuping"><p>漂流瓶</p></span></li>
+              <li><span class="iconfont icon-qingsu"><p>马上倾诉</p></span></li>
+              <li><span class="iconfont icon-laba"><p>传声筒</p></span></li>
+              <li><span class="iconfont icon-niandushengdian"><p>年度盛典</p></span></li>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <ul class="nav">
+              <li><span class="iconfont icon-wanhui"><p>情感挽回</p></span></li>
+              <li><span class="iconfont icon-hunyin"><p>婚恋关系</p></span></li>
+              <li><span class="iconfont icon-tongxing"><p>同性恋情</p></span></li>
+              <li><span class="iconfont icon-yiyu"><p>抑郁情绪</p></span></li>
+              <li><span class="iconfont icon-shuimian"><p>催眠</p></span></li>
+              <li><span class="iconfont icon-zixun"><p>心理咨询</p></span></li>
+              <li><span class="iconfont icon-piaoliuping"><p>漂流瓶</p></span></li>
+              <li><span class="iconfont icon-qingsu"><p>马上倾诉</p></span></li>
+              <li><span class="iconfont icon-laba"><p>传声筒</p></span></li>
+              <li><span class="iconfont icon-niandushengdian"><p>年度盛典</p></span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
     <!--聊聊专区-->
 
     <div class="chat">
@@ -317,12 +382,33 @@
 
 <style>
   @import url("../../../node_modules/swiper/css/swiper.css");
+  @import "../../assets/font_rz6j5od5yi/iconfont.css";
 
   /*顶部轮播图*/
 
   * {
     margin: 0 auto;
     padding: 0 auto;
+  }
+  .nav{
+    width: 100%;
+
+  }
+  .nav li {
+    padding-right: 0;
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: #ffffff;
+    }
+
+  .nav li span{
+    color:#54DD90;
+    font-size: 0.6rem;
+  }
+  .nav li span p{
+    font-size: 0.2rem;
+    color: black;
   }
 
   .myindex {
