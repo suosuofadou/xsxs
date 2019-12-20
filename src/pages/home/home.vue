@@ -4,7 +4,9 @@
       <serch></serch>
       <myfooter></myfooter>
     </div>
+
     <!-- 顶部轮播 -->
+
     <div class="swiperbox">
       <div class="swiper-container swiper1">
         <div class="swiper-wrapper">
@@ -20,7 +22,8 @@
     </div>
 
     <!-- 导航模块 -->
-    <div class="swiperbox">
+
+    <div class="swiperbox2">
       <div class="swiper-container swiper1">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -39,44 +42,39 @@
           </div>
           <div class="swiper-slide">
             <ul class="nav">
-              <li><span class="iconfont icon-wanhui"><p>情感挽回</p></span></li>
-              <li><span class="iconfont icon-hunyin"><p>婚恋关系</p></span></li>
-              <li><span class="iconfont icon-tongxing"><p>同性恋情</p></span></li>
-              <li><span class="iconfont icon-yiyu"><p>抑郁情绪</p></span></li>
-              <li><span class="iconfont icon-shuimian"><p>催眠</p></span></li>
-              <li><span class="iconfont icon-zixun"><p>心理咨询</p></span></li>
-              <li><span class="iconfont icon-piaoliuping"><p>漂流瓶</p></span></li>
-              <li><span class="iconfont icon-qingsu"><p>马上倾诉</p></span></li>
-              <li><span class="iconfont icon-laba"><p>传声筒</p></span></li>
-              <li><span class="iconfont icon-niandushengdian"><p>年度盛典</p></span></li>
+              <li><span class="iconfont icon-falv"><p>法律</p></span></li>
+              <li><span class="iconfont icon-zixun"><p>团体咨询</p></span></li>
+              <li><span class="iconfont icon-xinren"><p>新人专区</p></span></li>
+              <li><span class="iconfont icon-yuyue"><p>预约专区</p></span></li>
+              <li><span class="iconfont icon-mingshi"><p>名师</p></span></li>
+              <li><span class="iconfont icon-jiatingjiaoyu"><p>家庭教育</p></span></li>
+              <li><span class="iconfont icon-xueye"><p>学业问题</p></span></li>
+              <li><span class="iconfont icon-renjiguanxi"><p>人际关系</p></span></li>
+              <li><span class="iconfont icon-hunyin"><p>婚姻关系</p></span></li>
+              <li><span class="iconfont icon-shilian"><p>失恋陪护</p></span></li>
             </ul>
           </div>
           <div class="swiper-slide">
             <ul class="nav">
-              <li><span class="iconfont icon-wanhui"><p>情感挽回</p></span></li>
-              <li><span class="iconfont icon-hunyin"><p>婚恋关系</p></span></li>
-              <li><span class="iconfont icon-tongxing"><p>同性恋情</p></span></li>
-              <li><span class="iconfont icon-yiyu"><p>抑郁情绪</p></span></li>
-              <li><span class="iconfont icon-shuimian"><p>催眠</p></span></li>
-              <li><span class="iconfont icon-zixun"><p>心理咨询</p></span></li>
-              <li><span class="iconfont icon-piaoliuping"><p>漂流瓶</p></span></li>
-              <li><span class="iconfont icon-qingsu"><p>马上倾诉</p></span></li>
-              <li><span class="iconfont icon-laba"><p>传声筒</p></span></li>
-              <li><span class="iconfont icon-niandushengdian"><p>年度盛典</p></span></li>
+              <li><span class="iconfont icon-danshen"><p>摆脱单身</p></span></li>
+              <li><span class="iconfont icon-jiatingguanxi"><p>家庭关系</p></span></li>
+              <li><span class="iconfont icon-qinzi"><p>亲子关系</p></span></li>
+              <li><span class="iconfont icon-jiaolv"><p>焦虑</p></span></li>
+              <li><span class="iconfont icon-zhichang"><p>职业减压</p></span></li>
+              <li><span class="iconfont icon-chengchang"><p>个人成长</p></span></li>
+              <li><span class="iconfont icon-shimian"><p>失眠</p></span></li>
+              <li><span class="iconfont icon-chengchang"><p>情绪疏导</p></span></li>
+              <li><span class="iconfont icon-hunyin"><p>疑心病</p></span></li>
+              <li><span class="iconfont icon-zhengzhuang"><p>强迫症</p></span></li>
             </ul>
           </div>
           <div class="swiper-slide">
-            <ul class="nav">
-              <li><span class="iconfont icon-wanhui"><p>情感挽回</p></span></li>
-              <li><span class="iconfont icon-hunyin"><p>婚恋关系</p></span></li>
-              <li><span class="iconfont icon-tongxing"><p>同性恋情</p></span></li>
-              <li><span class="iconfont icon-yiyu"><p>抑郁情绪</p></span></li>
-              <li><span class="iconfont icon-shuimian"><p>催眠</p></span></li>
-              <li><span class="iconfont icon-zixun"><p>心理咨询</p></span></li>
-              <li><span class="iconfont icon-piaoliuping"><p>漂流瓶</p></span></li>
-              <li><span class="iconfont icon-qingsu"><p>马上倾诉</p></span></li>
-              <li><span class="iconfont icon-laba"><p>传声筒</p></span></li>
-              <li><span class="iconfont icon-niandushengdian"><p>年度盛典</p></span></li>
+            <ul class="nav roof">
+              <li><span class="iconfont icon-zhiyeguihua"><p>职业规划</p></span></li>
+              <li><span class="iconfont icon-kuangzao"><p>暴躁</p></span></li>
+              <li><span class="iconfont icon-zhichang"><p>恐惧</p></span></li>
+              <li><span class="iconfont icon-bei"><p>自卑</p></span></li>
+              <li><span class="iconfont icon-piaoliuping"><p>其他</p></span></li>
             </ul>
           </div>
         </div>
@@ -84,15 +82,19 @@
       </div>
     </div>
 
-    <!--聊聊专区-->
+    <!--听你倾述-->
 
     <div class="chat">
-      <span style="color: brown">-----聊聊专区-----</span>
+      <span style="color: brown">-----听你倾述-----</span>
       <div class="swiper-container">
         <div class="swiper-wrapper">
-
           <div class="swiper-slide">
             <div class="liao">
+<!--              <div class="nav-v" style="background-color:red;height: 20px;width:50px; border-radius: 20px">-->
+<!--                <span style="color: #54DD90;" class="iconfont icon-renzheng">-->
+<!--                </span>-->
+<!--                <span style="font-size: .25rem;padding-top: .05rem;height: .12rem;border-radius: 20px">认证</span>-->
+<!--              </div>-->
               <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
               <div style="background-color: #cccccc;">
@@ -155,157 +157,134 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
       </div>
-      <a href=""><span class="base">更多聊友<i>&gt;</i></span></a>
-    </div>
-
-    <!--关注专区-->
-
-    <div class="chat">
-      <span style="color: cornflowerblue">-----关注专区-----</span>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>11111</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>张三</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>11111</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>李四</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>王五</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>赵六</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-      </div>
-      <a href=""><span class="base">更多用户<i>&gt;</i></span></a>
-    </div>
-
-    <!--倾听专区-->
-
-    <div class="chat">
-      <span style="color: green">-----倾听专区-----</span>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>11111</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>11111</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>11111</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>11111</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>11111</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="liao">
-              <img src="../../assets/img/bg2.jpg">
-              <span>11111</span>
-              <div style="background-color: #cccccc;">
-                <a href=""><i>个人简介></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        </div>
       <a href=""><span class="base">更多倾听者<i>&gt;</i></span></a>
     </div>
 
+    <!--给你分析建议-->
+
+    <div class="chat">
+      <span style="color: cornflowerblue">-----给你分析建议-----</span>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../../assets/img/bg2.jpg">
+              <span>11111</span>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../../assets/img/bg2.jpg">
+              <span>张三</span>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../../assets/img/bg2.jpg">
+              <span>11111</span>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../../assets/img/bg2.jpg">
+              <span>李四</span>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../../assets/img/bg2.jpg">
+              <span>王五</span>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="liao">
+              <img src="../../assets/img/bg2.jpg">
+              <span>赵六</span>
+              <div style="background-color: #cccccc;">
+                <a href=""><i>个人简介></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <a href=""><span class="base">提供分析建议的倾听者<i>&gt;</i></span></a>
+    </div>
+
+    <!--成长套餐-->
+
+    <div class="grow">
+      <div>
+        <h>九型人格,识人圣经</h>
+      </div>
+      <div>
+        <ul>
+          <li>¥511</li>
+          <li>
+            <span style="font-size: .25rem" class="iconfont icon-huomiaohuoreredianhuobaomianxing">359</span>
+            <span style="color: #8f9bad">人购买</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="chat">
+      <span style="color: green">-----成长套餐-----</span>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+
+          </div>
+
+          <div class="swiper-slide">
+
+          </div>
+
+          <div class="swiper-slide">
+
+          </div>
+
+          <div class="swiper-slide">
+
+          </div>
+
+          <div class="swiper-slide">
+
+          </div>
+
+          <div class="swiper-slide">
+
+          </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        </div>
+      <a href=""><span class="base">更多成长套餐<i>&gt;</i></span></a>
+    </div>
   </div>
 </template>
 
@@ -333,6 +312,7 @@
         mounted() {
             this.myswipery1()
             this.myswipery()
+            this.myswipery2()
 
             this.scrollToTop()
         },
@@ -355,6 +335,7 @@
 
             // 顶部轮播图
             myswipery: function() {
+
                 var swiper = new Swiper('.swiperbox .swiper-container', {
                     autoplay: true,
                     loop: true,
@@ -365,6 +346,20 @@
                     observeParents: true, //修改swiper的父元素时，自动初始化swiper
                 });
             },
+
+            // 导航轮播图
+            myswipery2: function() {
+                var swiper1 = new Swiper('.swiperbox2 .swiper-container', {
+                    autoplay: false,
+                    loop: false,
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    observer: true, //修改swiper自己或子元素时，自动初始化swiper
+                    observeParents: true, //修改swiper的父元素时，自动初始化swiper
+                });
+            },
+
 
             // 底部轮播
             myswipery1: function() {
@@ -383,8 +378,10 @@
 <style>
   @import url("../../../node_modules/swiper/css/swiper.css");
   @import "../../assets/font_rz6j5od5yi/iconfont.css";
+  @import "../../assets/font_o9kfodo6i8c/iconfont.css";
+  @import "../../assets/font-icon/iconfont.css";
 
-  /*顶部轮播图*/
+    /*顶部轮播图*/
 
   * {
     margin: 0 auto;
@@ -412,7 +409,7 @@
   }
 
   .myindex {
-    background: #cccccc;
+    background: #F7F7F7;
     overflow-y: scroll;
     position: fixed;
     left: 0;
@@ -432,7 +429,7 @@
   .swiper-container .swiper-pagination {
     width: 2.5rem;
     position: absolute;
-    bottom: .2rem;
+    bottom: -5px;
     left: 2.5rem;
   }
 
@@ -441,9 +438,9 @@
     height: 100%;
   }
 
-  .swiper-pagination span {
-    border: .02rem solid #7f4395;
-  }
+  /*.swiper-pagination span {*/
+  /*  border: .01rem solid springgreen;*/
+  /*}*/
 
   .swiper-slide {
     text-align: center;
@@ -463,6 +460,10 @@
     align-items: center;
   }
 
+  .swiperbox2 {
+    margin-top: .15rem;
+  }
+
   .swiper-slide img {
     width: 100%;
     height: 100%;
@@ -476,7 +477,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: .05rem;
+    margin-top: .18rem;
     padding-top: .28rem;
     padding-bottom: .14rem;
     background-color: white;
@@ -492,9 +493,13 @@
   .liao {
     height: 100%;
     width: 100%;
-    background-color: powderblue;
+    background-color: #8f9bad;
   }
 
+  .nav-v span {
+    display: inline-block;
+    float: left;
+  }
   .chat .swiper-container {
     width: 100%;
     height: 100%;
@@ -504,7 +509,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -521,7 +525,7 @@
   }
 
   .liao {
-    border-radius: 16%;
+    border-radius: 13%;
     height: 88%;
     border: 2px solid #cccccc;
   }
@@ -546,13 +550,47 @@
     color: blue;
     margin-left: 1rem;
   }
+
   .chat span i {
     color: #FF7A00;
   }
+
   span {
     font-weight: bold;
   }
+
   .base {
     color: black;
+  }
+
+  .roof li {
+    padding-bottom: 1.2rem;
+  }
+  .grow {
+    height: 2.2rem;
+    width: 3rem;
+    background-color: white;
+    border-radius: 13%;
+  }
+
+  .grow div:nth-child(1) {
+    background-color: powderblue;
+    height: 1.5rem;
+    width: 100%;
+    border-radius: 13%;
+    padding-top: .2rem;
+
+  }
+  .grow div:nth-child(2) {
+    height: .4rem;
+    width: 100%;
+    color: red;
+    padding: 0 .2rem 0 .2rem;
+    font-size: .25rem;
+  }
+  .grow ul li {
+    float: left;
+    padding: 0;
+    margin-right: .45rem;
   }
 </style>
