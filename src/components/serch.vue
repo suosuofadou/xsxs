@@ -1,13 +1,14 @@
 <template>
 	<div>
     <div class="serch">
-      <div class="logo">
-        <img src="../assets/images/297762.jpg" alt="log加载失败">
-      </div>
-      <input type="text" placeholder="搜索倾听者/话题" onclick="">
+      <input type="text" placeholder="搜索倾听者/话题">
       <label for="ap">
-        <a href="http://www.baidu.com"><img style="height: .5rem ; width: .5rem" src="../assets/sx.svg" alt=""></a>
+        <a href="http://www.baidu.com"><img style="height: .5rem ; width: .5rem" src="../assets/sx1.svg" alt=""></a>
         <span id="ap">筛选</span>
+      </label>
+      <label for="ab">
+        <a href="http://www.baidu.com"><img style="height: .5rem ; width: .5rem" src="../assets/hb1.svg" alt=""></a>
+        <span id="ab">红包</span>
       </label>
     </div>
 	</div>
@@ -38,7 +39,9 @@
     margin: 0 auto;
     padding: 0 auto;
   }
-
+  input::-webkit-input-placeholder {
+    color: #8AEBD7;
+  }
   .serch{
     width: 100%;
     height: 1rem;
@@ -47,7 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #7D39A0;
+    background-color: #8AEBD7;
   }
 
   .serch input{
@@ -62,27 +65,14 @@
   }
 
   span {
-    display: inline-block;
-    margin-left: .2rem;
+    /*display: inline-block;*/
+    margin-left: .25rem;
+    float: left;
+    font-size: 10px;
+    text-align: center;
   }
-
   a {
     margin-left: .2rem;
-  }
-
-  .logo {
-    width: .8rem;
-    height: 100%;
-    margin-right: .15rem;
-  }
-
-  .logo img {
-    display: flex;
-    justify-content: center;
-    margin-top: 35%;
-    width: 60%;
-    height: 60%;
-    border-radius: 50%;
   }
 
 </style>

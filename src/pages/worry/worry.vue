@@ -9,40 +9,38 @@
 				<p class="escp">心&nbsp;事</p>
 			</div>
 
-    <mt-navbar v-model="selected">
-      <mt-tab-item id="1">故事</mt-tab-item>
-      <mt-tab-item id="2">心情</mt-tab-item>
-      <mt-tab-item id="3">干货</mt-tab-item>
-      <mt-tab-item id="4">文章</mt-tab-item>
-    </mt-navbar>
+    <div class="nav" v-model="selected">
+      <div id="1" @click="change(1)" :class="{'active': selected === 1}">故事</div>
+      <div id="2" @click="change(2)" :class="{'active': selected === 2}">心情</div>
+      <div id="3" @click="change(3)" :class="{'active': selected === 3}">干货</div>
+      <div id="4" @click="change(4)" :class="{'active': selected === 4}">文章</div>
+    </div>
 
     <!-- tab-container -->
-
+    <div>
       <!--故事-->
-    <mt-tab-container v-model="selected">
-      <mt-tab-container-item id="1">
-        <mt-cell v-for="n in 10" :title="'内容 ' + n" />
-      </mt-tab-container-item>
+      <div v-if="selected == 1">
+        1
+      </div>
 
       <!--心情-->
 
-      <mt-tab-container-item id="2">
-        <mt-cell v-for="n in 4" :title="'content ' + n" />
-      </mt-tab-container-item>
+      <div v-if="selected == 2">
+        2
+      </div>
 
       <!--文章-->
 
-      <mt-tab-container-item id="3">
-        <mt-cell v-for="n in 6" :title="'content ' + n" />
-      </mt-tab-container-item>
+      <div v-if="selected == 3">
+        3
+      </div>
 
       <!--心情-->
 
-      <mt-tab-container-item id="4">
-        <mt-cell v-for="n in 6" :title="'content ' + n" />
-      </mt-tab-container-item>
-
-    </mt-tab-container>
+      <div v-if="selected == 4">
+        4
+      </div>
+     </div>
 		</div>
 
 </template>
@@ -50,12 +48,27 @@
 <script>
 
 	export default {
-      name: 'worry'
+      name: 'worry',
+      data() {
+        return {
+            selected : 1
+        };
+      },
+      methods: {
+          change(index) {
+
+             this.selected = index
+          }
+      }
   }
 
 </script>
 
 <style>
+  * {
+    margin: 0 auto;
+    padding: 0 auto;
+  }
 	.shopcart-none {
 	  display: none;
 	}
@@ -91,16 +104,18 @@
 	  text-overflow: ellipsis;
 	  white-space: nowrap;
 	}
-  .nav_head {
+  .nav {
     width: 100%;
-    height: 0.8rem;
-    background:url("../../assets/img/ys.png")no-repeat;
+    height: .7rem;
   }
-  .nav_head li{
-    float: left;
-    padding: 0 0.6rem;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 0.8rem;
+  .nav div {
+    display: inline-block;
+    width: 23.5%;
+    line-height: .7rem;
+    text-align: center;
+  }
+  .active {
+    border-bottom: 2px solid springgreen;
+    transform: scale(1.2);
   }
 </style>

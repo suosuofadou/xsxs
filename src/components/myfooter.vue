@@ -1,33 +1,29 @@
 <template>
 	<div class="myfooter">
     <ul>
-      <li>
-        <router-link to="/">
-          <span class="iconfont icon-1"></span>
-		    </router-link>
+        <li class="nav-footer-item" @click="open('/')">
+          <i class="icon iconfont icon-1" :class="{'active': activeNav=='/'}"></i>
+          <p class="item-text" :class="{'active': activeNav=='/'}">首页</p>
+        </li>
+
+      <li class="nav-footer-item" @click="open('/vip')">
+        <i class="icon iconfont icon-huangguan" :class="{'active': activeNav=='/vip'}"></i>
+        <p class="item-text" :class="{'active': activeNav=='/vip'}">vip</p>
       </li>
 
-      <li>
-        <router-link to="/vip">
-          <span class="iconfont icon-huangguan"></span>
-		    </router-link>
-      </li>
-      <li>
-        <router-link to="/worry">
-          <span class="iconfont icon-xintubiao-"></span>
-			  </router-link>
-      </li>
-      <li>
-        <router-link to="/news">
-          <span class="iconfont icon-xiaoxi"></span>
-
-			  </router-link>
+      <li class="nav-footer-item" @click="open('/worry')">
+        <i class="icon iconfont icon-xintubiao-" :class="{'active': activeNav=='/worry'}"></i>
+        <p class="item-text" :class="{'active': activeNav=='/worry'}">心事</p>
       </li>
 
-      <li>
-        <router-link to="/my">
-          <span class="iconfont icon-wode"></span>
-        </router-link>
+      <li class="nav-footer-item" @click="open('/news')">
+        <i class="icon iconfont icon-xiaoxi" :class="{'active': activeNav=='/news'}"></i>
+        <p class="item-text" :class="{'active': activeNav=='/news'}">消息</p>
+      </li>
+
+      <li class="nav-footer-item" @click="open('/my')">
+        <i class="icon iconfont icon-wode" :class="{'active': activeNav=='/my'}"></i>
+        <p class="item-text" :class="{'active': activeNav=='/my'}">我的</p>
       </li>
     </ul>
 	</div>
@@ -41,62 +37,52 @@
 
 			}
 		},
-		created() {
+		  created() {
+
+		    },
+      computed: {
+          activeNav: function(){
+              return this.$route.path;
+          }
+      },
+		  mounted() {
 
 		},
-		mounted() {
-
-		},
-		methods: {
-
+		  methods: {
+          open(path){
+              this.activeNav = path;
+              this.$router.push({
+                  path: path
+              });
+          }
 		}
 	}
 </script>
 
 <style scoped="scoped">
   @import "../assets/font_qsta16in8ho/iconfont.css";
-  .myfooter{
+  * {
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .myfooter {
     width: 100%;
-    height: 1rem;
-    background-color:#7D39A0;
     position: fixed;
     bottom: 0;
-    left: 0;
+    background-color: white;
+    height: 1rem;
   }
-  ul{
-    display: flex;
-  }
-  li{
-    flex: 1;
-    height: 100%;
-
-    list-style: none;
-    margin-top: 0.14rem;
-  }
-  .iconfont{
-    font-size: .52rem;
-  }
-  a{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  .myfooter ul {
     width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: #ffffff;
-	padding-top: .05rem;
-	box-sizing: border-box;
+    border-top: 1px solid #F6F4F5;
   }
-  a:hover{
-    color: red;
+  .myfooter ul li {
+    text-align: center;
+    float: left;
+    width: 20%;
   }
-  li a img{
-	  width: .45rem;
-    height: .45rem;
+  .active {
+    transform: scale(1);
+    color: #42B983;
   }
-  li a p{
-	  width: 100%;
-	  height: 40%;
-  }
-
 </style>
