@@ -350,6 +350,7 @@
         },
         components:{
           myfooter
+
         },
         methods: {
             myswipery: function() {
