@@ -2,10 +2,9 @@
   <div id="app">
      <myheader></myheader>
     <router-view/>
-     <myfooter></myfooter>
-    <div v-show="xianshi">
-      <myfooter></myfooter>
-    </div>
+<!--    <div v-show="xianshi">-->
+<!--      <myfooter></myfooter>-->
+<!--    </div>-->
   </div>
 </template>
 
@@ -20,16 +19,15 @@
 
       //让more页面的footer消失
 
-    // watch: {
-    //     $route(e) {
-    //         if (e.name === 'more') {
-    //             this.xianshi = false;
-    //         }else {
-    //             this.xianshi = true;
-    //         }
-    //     }
-    // }
-
+    watch: {
+        $route(e) {
+            if (e.name === 'information') {
+                this.xianshi = false;
+            }else {
+                this.xianshi = true;
+            }
+        },
+    }
   }
 </script>
 

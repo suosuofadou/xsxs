@@ -95,8 +95,10 @@
 <!--                </span>-->
 <!--                <span style="font-size: .25rem;padding-top: .05rem;height: .12rem;border-radius: 20px">认证</span>-->
 <!--              </div>-->
-              <img src="../../assets/img/bg2.jpg">
-              <span>11111</span>
+              <router-link to="/information">
+                <img src="../../assets/img/bg2.jpg">
+                <span>11111</span>
+              </router-link>
               <div style="background-color: #cccccc;">
                 <a href=""><i>个人简介></i></a>
               </div>
@@ -157,7 +159,9 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
       </div>
-      <a href=""><span class="base">更多倾听者<i>&gt;</i></span></a>
+      <router-link to="/more">
+        <a href=""><span class="base">更多倾听者<i>&gt;</i></span></a>
+      </router-link>
     </div>
 
     <!--给你分析建议-->
@@ -231,52 +235,119 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
       </div>
-      <a href=""><span class="base">提供分析建议的倾听者<i>&gt;</i></span></a>
+      <router-link to="/suggest">
+        <a href=""><span class="base">提供分析建议的倾听者<i>&gt;</i></span></a>
+      </router-link>
     </div>
 
     <!--成长套餐-->
 
-    <div class="grow">
-      <div>
-        <h>九型人格,识人圣经</h>
-      </div>
-      <div>
-        <ul>
-          <li>¥511</li>
-          <li>
-            <span style="font-size: .25rem" class="iconfont icon-huomiaohuoreredianhuobaomianxing">359</span>
-            <span style="color: #8f9bad">人购买</span>
-          </li>
-        </ul>
-      </div>
-    </div>
+
     <div class="chat">
       <span style="color: green">-----成长套餐-----</span>
       <div class="swiper-container">
         <div class="swiper-wrapper">
 
           <div class="swiper-slide">
-
+            <div class="grow">
+              <div>
+                <h>九型人格,识人圣经</h>
+              </div>
+              <div>
+                <ul>
+                  <li>¥511</li>
+                  <li>
+                    <span style="font-size: .25rem" class="iconfont icon-huomiaohuoreredianhuobaomianxing">359</span>
+                    <span style="color: #8f9bad">人购买</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div class="swiper-slide">
-
+            <div class="grow">
+              <div>
+                <h>九型人格,识人圣经</h>
+              </div>
+              <div>
+                <ul>
+                  <li>¥511</li>
+                  <li>
+                    <span style="font-size: .25rem" class="iconfont icon-huomiaohuoreredianhuobaomianxing">359</span>
+                    <span style="color: #8f9bad">人购买</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div class="swiper-slide">
-
+            <div class="grow">
+              <div>
+                <h>九型人格,识人圣经</h>
+              </div>
+              <div>
+                <ul>
+                  <li>¥511</li>
+                  <li>
+                    <span style="font-size: .25rem" class="iconfont icon-huomiaohuoreredianhuobaomianxing">359</span>
+                    <span style="color: #8f9bad">人购买</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div class="swiper-slide">
-
+            <div class="grow">
+              <div>
+                <h>九型人格,识人圣经</h>
+              </div>
+              <div>
+                <ul>
+                  <li>¥511</li>
+                  <li>
+                    <span style="font-size: .25rem" class="iconfont icon-huomiaohuoreredianhuobaomianxing">359</span>
+                    <span style="color: #8f9bad">人购买</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div class="swiper-slide">
-
+            <div class="grow">
+              <div>
+                <h>九型人格,识人圣经</h>
+              </div>
+              <div>
+                <ul>
+                  <li>¥511</li>
+                  <li>
+                    <span style="font-size: .25rem" class="iconfont icon-huomiaohuoreredianhuobaomianxing">359</span>
+                    <span style="color: #8f9bad">人购买</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div class="swiper-slide">
-
+            <div class="grow">
+              <div>
+                <h>九型人格,识人圣经</h>
+              </div>
+              <div>
+                <ul>
+                  <li>¥511</li>
+                  <li>
+                    <span style="font-size: .25rem" class="iconfont icon-huomiaohuoreredianhuobaomianxing">359</span>
+                    <span style="color: #8f9bad">人购买</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -375,7 +446,7 @@
     }
 </script>
 
-<style>
+<style scoped>
   @import url("../../../node_modules/swiper/css/swiper.css");
   @import "../../assets/font_rz6j5od5yi/iconfont.css";
   @import "../../assets/font_o9kfodo6i8c/iconfont.css";
