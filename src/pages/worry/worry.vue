@@ -1,7 +1,7 @@
 <template>
 	<div>
-
-<!--	顶部导航栏-->
+    <myfooter></myfooter>
+    <!--	顶部导航栏-->
 			<div class="shopcart-head">
 				<router-link to="/">
 					<div class="indexicon"><img src="../../assets/img/fh.png"/></div>
@@ -46,13 +46,16 @@
 </template>
 
 <script>
-
+import myfooter from "../../components/myfooter";
 	export default {
       name: 'worry',
       data() {
         return {
             selected : 1
         };
+      },
+      components: {
+        myfooter
       },
       methods: {
           change(index) {
