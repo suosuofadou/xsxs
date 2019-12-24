@@ -2,7 +2,7 @@
 	<div class="myny">
 <!--    设置-->
     <div class="myny-top">
-          <router-link to="/setting">
+          <router-link to="#">
           <img src="../../assets/images/xinxishezhi.png" alt="">
         </router-link>
     </div>
@@ -96,6 +96,7 @@
       </span>
     </div>
     <div class="fenge_4"></div>
+    <router-link to="/setting">
     <div class="entity">
       <img src="../../assets/images/shezhi.png" alt="">
       <span>设置</span>
@@ -103,6 +104,7 @@
         <img src="../../assets/images/youjiantou.png" alt="">
       </span>
     </div>
+    </router-link>
     <div class="fenge_3"></div>
     <div class="entity">
       <img src="../../assets/images/guanyv.png" alt="">
@@ -168,7 +170,7 @@
 	}
 </script>
 
-<style>
+<style scoped>
 	.myny {
 		width: 100%;
     height: 2.5rem;

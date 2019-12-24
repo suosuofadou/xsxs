@@ -4,11 +4,9 @@ import home from '@/pages/home/home'
 import vip from '@/pages/vip/vip'
 import worry from '@/pages/worry/worry'
 import news from '@/pages/news/news'
-import login_index from "../pages/my/login_index"
-import login from "../pages/my/login"
-import regist from "../pages/my/regist"
 import my from "../pages/my/my";
 import gushi from "../pages/worry/gushi";
+import setting from "../pages/my/setting";
 
 
 Vue.use(Router)
@@ -30,7 +28,7 @@ export default new Router({
       component: worry,
       children: [
         {
-          path: '/gushi',
+          path: '/worry/gushi',
           name: 'gushi',
           component: gushi
         }
@@ -41,25 +39,15 @@ export default new Router({
       name: 'news',
       component: news
     },
-		{
-			path: '/login_index',
-			name: 'login_index',
-			component: login_index
-		},
-    {
-      path: '/login',
-      name: 'login',
-      component: login
-    },
-    {
-      path: '/regist',
-      name: 'regist',
-      component: regist
-    },
     {
       path: '/my',
       name: 'my',
       component: my
     },
+    {
+      path: '/setting',
+      name: 'setting',
+      component:setting
+    }
 	]
 })

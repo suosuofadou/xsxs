@@ -20,9 +20,7 @@
         <div class="swiper-pagination"></div>
       </div>
     </div>
-
     <!-- 导航模块 -->
-
     <div class="swiperbox2">
       <div class="swiper-container swiper1">
         <div class="swiper-wrapper">
@@ -90,11 +88,6 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="liao">
-<!--              <div class="nav-v" style="background-color:red;height: 20px;width:50px; border-radius: 20px">-->
-<!--                <span style="color: #54DD90;" class="iconfont icon-renzheng">-->
-<!--                </span>-->
-<!--                <span style="font-size: .25rem;padding-top: .05rem;height: .12rem;border-radius: 20px">认证</span>-->
-<!--              </div>-->
               <img src="../../assets/img/bg2.jpg">
               <span>11111</span>
               <div style="background-color: #cccccc;">
@@ -364,7 +357,6 @@
             // 底部轮播
             myswipery1: function() {
                 var swiperswiper = new Swiper('.chat .swiper-container', {
-                    // direction: 'vertical', // 垂直切换选项
                     pagination: '.swiper-pagination',
                     slidesPerView: 3,
                     paginationClickable: true,
@@ -379,8 +371,8 @@
   @import url("../../../node_modules/swiper/css/swiper.css");
   @import "../../assets/font_rz6j5od5yi/iconfont.css";
   @import "../../assets/font_o9kfodo6i8c/iconfont.css";
+  @import "../../assets/font_4azudcp935p/iconfont.css";
   @import "../../assets/font-icon/iconfont.css";
-
     /*顶部轮播图*/
 
   * {
@@ -389,7 +381,6 @@
   }
   .nav{
     width: 100%;
-
   }
   .nav li {
     padding-right: 0;
@@ -438,27 +429,23 @@
     height: 100%;
   }
 
-  /*.swiper-pagination span {*/
-  /*  border: .01rem solid springgreen;*/
-  /*}*/
-
   .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
 
   .swiperbox2 {
     margin-top: .15rem;
@@ -579,7 +566,6 @@
     width: 100%;
     border-radius: 13%;
     padding-top: .2rem;
-
   }
   .grow div:nth-child(2) {
     height: .4rem;

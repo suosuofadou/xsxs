@@ -1,8 +1,8 @@
 <template>
 	<div>
 		<div class="search">
-			<div class="icon"><img class="iconimg" src="../assets/images/ccsearch.png" alt=""></div>
-			<input type="text" placeholder="搜索倾听者/话题" />
+			<div class="icon"><img class="iconimg" src="../assets/images/fdj.png" alt=""></div>
+			<input type="text" placeholder="搜索果号、昵称、备注、聊天记录" />
 		</div>
 
 	</div>
@@ -34,17 +34,18 @@
 		border: none;
 		background: #f4f4f4;
 		width: 100%;
-		height: 0.62rem;
+		height: 0.7rem;
 		border-bottom-right-radius: 0.3rem;
 		border-top-right-radius: 0.3rem;
 		outline: none;
 		/* padding-left: 0.15rem; */
 		margin: 0.2rem 0 0 0;
 		box-sizing: border-box;
+    background-color: #fff;
 	}
 	.icon{
 		width: 0.6rem;
-		height: 0.6rem;
+		height: 0.7rem;
 		padding-left: 0.15rem;
 		/* padding-top: .2rem; */
 		margin: 0.2rem 0 0 0;
@@ -54,14 +55,15 @@
 		background-position: 50%,50%;
 		border-top-left-radius: 0.3rem;
 		border-bottom-left-radius: 0.3rem;
-		background: #f4f4f4;
+		background-color: #ffffff;
 
 
 	}
 	.iconimg{
-		width: 80%;
-		height: 80%;
+		width: 70%;
+		height: 70%;
 		float: right;
-		margin-top: 0.1rem;
+		margin-top: 0.18rem;
+    background-color: #fff;
 		}
 </style>

@@ -8,7 +8,7 @@
 
       <li class="nav-footer-item" @click="open('/vip')">
         <i class="icon iconfont icon-huangguan" :class="{'active': activeNav=='/vip'}"></i>
-        <p class="item-text" :class="{'active': activeNav=='/vip'}">vip</p>
+        <p class="item-text" :class="{'active': activeNav=='/vip'}">套餐</p>
       </li>
 
       <li class="nav-footer-item" @click="open('/worry')">

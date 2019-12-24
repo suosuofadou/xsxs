@@ -2,7 +2,7 @@
   <div id="app">
      <myheader></myheader>
     <router-view/>
-     <myfooter></myfooter>
+     <myfooter v-if=""></myfooter>
   </div>
 </template>
 
