@@ -1,5 +1,6 @@
 <template>
-	<div class="myny">
+  <div class="myny">
+    <myfooter></myfooter>
     <div class="myny-top">
       <ul>
         <li>

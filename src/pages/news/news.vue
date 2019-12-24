@@ -1,5 +1,6 @@
 <template>
   <div>
+    <myfooter></myfooter>
 
     <!--	顶部导航栏-->
 
@@ -113,10 +114,12 @@
 
 <script>
   import search from "../../components/search";
+  import myfooter from "../../components/myfooter";
     export default {
         name: "news",
         components:{
             search: search,
+            myfooter: myfooter
         }
     }
 </script>

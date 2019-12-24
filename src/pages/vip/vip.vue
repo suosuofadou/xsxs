@@ -1,5 +1,7 @@
 <template>
   <div class="classs">
+    <myfooter></myfooter>
+
     <div class="bg">
       <div class="search">
         <div class="icon"><img class="iconimg" src="../../assets/images/ccsearch.png" alt=""></div>
@@ -10,10 +12,14 @@
 </template>
 
 <script>
+  import myfooter from "../../components/myfooter";
     export default {
         name: 'vip',
         data() {
             return {}
+        },
+        components: {
+          myfooter
         },
         created() {},
         mounted() {},

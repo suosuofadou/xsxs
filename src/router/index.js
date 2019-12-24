@@ -9,7 +9,9 @@ import login from "../pages/my/login"
 import regist from "../pages/my/regist"
 import my from "../pages/my/my";
 import gushi from "../pages/worry/gushi";
-
+import more from "../pages/home/more";
+import suggest from "../pages/home/suggest";
+import information from "../pages/home/information";
 
 Vue.use(Router)
 
@@ -61,5 +63,20 @@ export default new Router({
       name: 'my',
       component: my
     },
+    {
+      path: '/more',
+      name: 'more',
+      component:more
+    },
+    {
+      path: '/suggest',
+      name: 'suggest',
+      component:suggest
+    },
+    {
+      path:'/information',
+      name: 'information',
+      component:information
+    }
 	]
 })
