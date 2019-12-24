@@ -63,20 +63,5 @@ export default new Router({
       name: 'my',
       component: my
     },
-    {
-      path: '/more',
-      name: 'more',
-      component:more
-    },
-    {
-      path: '/suggest',
-      name: 'suggest',
-      component:suggest
-    },
-    {
-      path:'/information',
-      name: 'information',
-      component:information
-    }
 	]
 })

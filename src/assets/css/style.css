@@ -73,11 +73,6 @@ a {
     height: 0;
     visibility: hidden;
 }
-
-.clearfix {
-}
-
-
 .divHeight {
     width: 100%;
     height: 10px;
@@ -264,8 +259,8 @@ a {
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height:30px;
     display: block;
     border: none;
     float: left;
@@ -284,7 +279,7 @@ a {
 .aui-flex-add{
     position:absolute;
     right:15px;
-    top:28px;
+    top:15px;
     color:#999999;
     font-size:12px;
 }
@@ -301,18 +296,16 @@ a {
     height:40px;
     display:block;
     border:none;
-    border-radius:100%;
+    border-radius:5px;
 }
 
 .aui-flex-box h2{
-    font-weight: normal;
-    font-size: 16px;
+    font-weight:bold;
+    font-size: 18px;
     width: auto;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    word-wrap: normal;
-    word-wrap: break-word;
     word-break: break-all;
     color:#444444;
 }
@@ -320,13 +313,12 @@ a {
 
 .aui-flex-box h3{
     font-weight: normal;
-    font-size: 13px;
+    font-size: 10px;
     width: auto;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    word-wrap: normal;
-    word-wrap: break-word;
+
     word-break: break-all;
     color:#666666;
     margin-bottom:5px;
