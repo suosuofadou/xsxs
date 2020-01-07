@@ -1,0 +1,70 @@
+<template>
+  <!-- 获取验证码按钮 -->
+    <div class="btn-wrap">
+      <button :class="['get-code', {'disable-click': disabled}]" @click="run">{{tipText}}</button>
+    </div>
+  </template>
+
+
+<script>
+    export default {
+        name: "seetingpwd",
+        data() {
+            return {
+                tipText: '获取验证码',
+                time: 60,
+                disabled: false,
+            }
+        },
+        methods: {
+            // 点击获取验证码
+            run() {
+                if(!this.disabled) {
+                    this.setDisabled(true);
+                    this.timer();
+                } else {
+                    return false;
+                }
+            },
+            // 倒计时
+            timer() {
+                if(this.time > 0) {
+                    this.tipText = this.time + 's后重新获取';
+                    this.time--;
+                    setTimeout(this.timer, 1000);
+                } else {
+                    this.setDisabled(false);
+                    this.time = 60;
+                    this.tipText = '重新获取';
+                }
+            },
+            // 设置disable的值
+            setDisabled(val) {
+                this.disabled = val;
+            },
+        }
+    }
+</script>
+
+<style lang="scss" scoped>
+  .btn-wrap {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .get-code {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fc640a;
+    color: #FFF;
+    cursor: pointer;
+    &.disable-click {
+      cursor: not-allowed;
+      background-color: #B4B4B4;
+    }
+  }
+
+</style>

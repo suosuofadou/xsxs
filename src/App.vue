@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-     <myheader></myheader>
     <router-view/>
 <!--    <div v-show="xianshi">-->
 <!--      <myfooter></myfooter>-->

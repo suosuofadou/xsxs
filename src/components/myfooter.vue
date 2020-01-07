@@ -71,6 +71,7 @@
     bottom: 0;
     background-color: white;
     height: 1rem;
+    z-index: 1;
   }
   .myfooter ul {
     width: 100%;

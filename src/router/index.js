@@ -10,6 +10,12 @@ import more from "../pages/home/more";
 import suggest from "../pages/home/suggest";
 import information from "../pages/home/information";
 import setting from "../pages/my/setting";
+import find from "../pages/my/find";
+import login from "../pages/my/login";
+import money from "../pages/my/money";
+import recharge from "../pages/my/recharge";
+import text from "../pages/my/text";
+import seetingpwd from "../pages/my/seetingpwd";
 
 Vue.use(Router)
 
@@ -66,5 +72,36 @@ export default new Router({
       name: 'setting',
       component: setting
     },
+    {
+      path: '/find',
+      name: 'find',
+      component: find
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: login
+    },
+    {
+      path: '/money',
+      name: 'money',
+      component: money
+    },
+    {
+      path: '/recharge',
+      name: 'recharge',
+      component: recharge
+    },
+    {
+      path: '/text',
+      name: 'text',
+      component: text
+    },
+    {
+      path: '/seetingpwd',
+      name: 'seetingpwd',
+      component: seetingpwd
+    }
+
 	]
 })

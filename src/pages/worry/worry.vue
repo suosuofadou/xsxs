@@ -68,10 +68,7 @@ import myfooter from "../../components/myfooter";
 </script>
 
 <style scoped>
-  * {
-    margin: 0 auto;
-    padding: 0 auto;
-  }
+
 	.shopcart-none {
 	  display: none;
 	}

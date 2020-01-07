@@ -13,9 +13,9 @@
 <!--      头像-->
       <div class="pto">
         <img src="../../assets/images/297762.jpg" alt="">
-        <div class="user_name">
-          <span>客气的牛战士</span>
-          <p>星号：666666</p>
+        <div class="user_name" v-for="(item, index) in arrlist" :key="index">
+          <span>{{item.uname}}</span>
+          <p>星号：{{item.uid}}</p>
         </div>
           <span class="user_juese">切换角色&gt;</span>
 <!--        会员中心-->
@@ -51,8 +51,8 @@
 <!--    导航模块-->
     <div class="my_nav">
       <ul>
-        <li><img src="../../assets/images/qianbao.png" alt=""><p>钱包</p></li>
-        <li><img src="../../assets/images/chongzhi.png" alt=""><p>充值</p></li>
+        <router-link to="/money"><li><img src="../../assets/images/qianbao.png" alt=""><p>钱包</p></li></router-link>
+        <router-link to="/recharge"><li><img src="../../assets/images/chongzhi.png" alt=""><p>充值</p></li></router-link>
         <li><img src="../../assets/images/dingdan.png" alt=""><p>订单</p></li>
         <li><img src="../../assets/images/youhuiquan.png" alt=""><p>优惠券</p></li>
       </ul>
@@ -69,7 +69,7 @@
 <!--    功能栏-->
     <div class="entity">
       <img src="../../assets/images/songshu.png" alt="">
-      <span>松果庄园</span>
+      <span>心星庄园</span>
       <span class="entity_right">去喂养
         <img src="../../assets/images/youjiantou.png" alt="">
       </span>
@@ -77,7 +77,7 @@
     <div class="fenge_3"></div>
     <div class="entity">
       <img src="../../assets/images/dianpu.png" alt="">
-      <span>松果小店</span>
+      <span>心星小店</span>
       <span class="entity_right">分享赚钱
         <img src="../../assets/images/youjiantou.png" alt="">
       </span>
@@ -111,7 +111,7 @@
     <div class="fenge_3"></div>
     <div class="entity">
       <img src="../../assets/images/guanyv.png" alt="">
-      <span>关于松果倾诉</span>
+      <span>关于心星诉说</span>
       <span class="entity_right">
         <img src="../../assets/images/youjiantou.png" alt="">
       </span>
@@ -140,35 +140,41 @@
         <img src="../../assets/images/youjiantou.png" alt="">
       </span>
     </div>
-
-
 	</div>
 </template>
 
 <script>
-	import myfooter from "../../components/myfooter.vue"
+	import myfooter from "../../components/myfooter.vue";
+  import Myheader from "../../components/myheader";
+  import axios from 'axios';
+  axios.defaults.baseUrl="http://192.168.0.103:8080";
 	export default {
 		name: '',
 		data() {
 			return {
-				active:false
+				active:false,
+        arrlist:[]
 			}
 		},
 		components: {
+        Myheader,
 			myfooter: myfooter,
 		},
-		created() {},
+  created() {},
 		mounted() {
-			console.log($("drawback"))
 			this.hellojquery()
 		},
 		methods: {
-			hellojquery: function() {
-				console.log($("drawback"))
+    hellojquery: function() {
+          axios.post("http://192.168.0.103:8080/test/random").then(res => {
+
+              this.arrlist.push(res.data);
+          })
 			},
 			droback:function(){
 				this.active=!this.active;
-			}
+			},
+
 		}
 	}
 </script>
@@ -282,11 +288,13 @@
     float: left;
     padding-right: 0.5rem;
     margin-left: 0.6rem;
+    color: black;
   }
   .my_nav ul:nth-child(3) li{
     float: left;
     padding-right: 0.2rem;
     margin-left: 0.6rem;
+    color: black;
   }
   .my_nav li img{
     width: 0.6rem;
@@ -305,6 +313,7 @@
     line-height: 1rem;
     font-size: 0.3rem;
     font-weight: bold;
+    color: black;
   }
   .entity img{
     width: 0.6rem;
