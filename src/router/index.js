@@ -15,8 +15,7 @@ import login from "../pages/my/login";
 import money from "../pages/my/money";
 import recharge from "../pages/my/recharge";
 import text from "../pages/my/text";
-import seetingpwd from "../pages/my/seetingpwd";
-
+import recharge_xb from "../pages/my/recharge_xb";
 Vue.use(Router)
 
 export default new Router({
@@ -98,9 +97,9 @@ export default new Router({
       component: text
     },
     {
-      path: '/seetingpwd',
-      name: 'seetingpwd',
-      component: seetingpwd
+      path: '/recharge_xb',
+      name: 'recharge_xb',
+      component: recharge_xb
     }
 
 	]

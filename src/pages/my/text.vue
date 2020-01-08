@@ -59,7 +59,7 @@
 
 <script>
   import  axios from 'axios'
-  axios.defaults.baseUrl="http://192.168.0.103:8080"
+  axios.defaults.baseUrl="http://192.168.0.108:8080"
   import {Dialog} from "vant";
 
   export default {
@@ -136,7 +136,7 @@
           if (valid) {
             let upwd = this.ruleForm.pass;
             let verification = this.numberValidateForm.age;
-            axios.post("http://192.168.0.103:8080/test/updateUserinfo/"+ upwd +"/"+verification).then(data => {
+            axios.post("http://192.168.0.108:8080/test/updateUserinfo/"+ upwd +"/"+verification).then(data => {
               if (data.data === "手机号密码绑定成功"){
                 Dialog.alert({
                   message: '设置成功'
@@ -151,9 +151,6 @@
                 });
               }
             })
-          } else {
-            console.log('error submit!!');
-            return false;
           }
         });
       },
@@ -166,12 +163,11 @@
             message: '手机号不能为空'
           }).then(() => {
           });
-        }else {
-          if (!this.disabled) {
+        }else if (!this.disabled) {
             this.setDisabled(true);
             this.timer();
             let  data = this.ruleForm.age;
-            axios.post("http://192.168.0.103:8080/test/authcode/"+ data).then(data => {
+            axios.post("http://192.168.0.108:8080/test/authcode/"+ data).then(data => {
               if (data.data == "手机号已经存在"){
                 Dialog.alert({
                   message: '手机号已绑定用户'
@@ -182,7 +178,6 @@
           } else {
             return false;
           }
-        }
       },
       // 倒计时
       timer() {

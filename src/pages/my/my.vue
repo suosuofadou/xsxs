@@ -147,7 +147,7 @@
 	import myfooter from "../../components/myfooter.vue";
   import Myheader from "../../components/myheader";
   import axios from 'axios';
-  axios.defaults.baseUrl="http://192.168.0.103:8080";
+  axios.defaults.baseUrl="http://192.168.0.108:8080";
 	export default {
 		name: '',
 		data() {
@@ -160,14 +160,13 @@
         Myheader,
 			myfooter: myfooter,
 		},
-  created() {},
+
 		mounted() {
 			this.hellojquery()
 		},
 		methods: {
     hellojquery: function() {
-          axios.post("http://192.168.0.103:8080/test/random").then(res => {
-
+          axios.post("http://192.168.0.108:8080/test/random").then(res => {
               this.arrlist.push(res.data);
           })
 			},

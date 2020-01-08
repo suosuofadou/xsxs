@@ -19,20 +19,8 @@
     <div style="border-top: 13px solid #f5f5f5"></div>
     <div class="price">
       <ul>
-        <li @click="as(1)" :class="{'active': index === 1}">666元</li>
-        <li @click="as(2)" :class="{'active': index === 2}">666元</li>
-        <li @click="as(3)" :class="{'active': index === 3}">666元</li>
-        <div>
-          <li @click="as(4)" :class="{'active': index === 4}">
-            666元
-            <span>银卡</span>
-          </li>
-        </div>
-        <li @click="as(5)" :class="{'active': index === 5}">666元<span>银卡</span></li>
-        <li @click="as(6)" :class="{'active': index === 6}">666元<span>银卡</span></li>
-        <li @click="as(7)" :class="{'active': index === 7}">666元<span>银卡</span></li>
-        <li @click="as(8)" :class="{'active': index === 8}">666元<span style="background-color: #E5C175;">金卡</span></li>
-        <li @click="as(9)" :class="{'active': index === 9}">
+        <li @click="clickNode(index)" v-for="(item, index) in money" :key="index" v-bind:class='{active:index==classID}'>{{item.ptNum + "元"}}</li>
+        <li @click="clickNode" :class="{'active': index === 9}">
           <input value="inputValue"  @blur.prevent="changeCount()" type="number" oninput="if(value.length>10)value=value.slice(0,10)"  placeholder="其他金额" v-model="num">
         </li>
       </ul>
@@ -114,25 +102,40 @@
 </template>
 <script>
     import {RadioGroup, Radio,Collapse, CollapseItem} from 'vant';
+    import axios from 'axios';
         export default {
-        name: "recharge",
-        data() {
+          name: "recharge",
+
+          data() {
             return {
                 index: 0,
-                inputValue: '',
+                inputValue:"",
                 checked: false,
                 radio: '1',
                 activeNames:['1'],
-                num:""
+                num:"",
+                money:[],
+                classID:"0",
             }
-        },
-        components: {
+          },
+          mounted() {
+            this.money_num()
+          },
+         components: {
             RadioGroup,
             Radio
         },
-        methods: {
-            as(index) {
-                this.index = index;
+          methods: {
+            money_num: function() {
+              axios.get("http://192.168.0.182:8080/yerecharge").then(res => {
+                this.money = res.data;
+                console.log(this.money);
+              })
+            },
+            clickNode(index) {
+              this.classID = index;
+              $("ul li:first-child").removeClass('active');
+              this.num = this.money[index].ptNum;
             },
             changeCount(){
                 alert(inputValue)

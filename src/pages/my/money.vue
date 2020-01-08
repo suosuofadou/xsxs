@@ -5,7 +5,7 @@
         <img src="../../assets/img/fh.png" alt="">
       </router-link>
       钱包
-      <router-link to="#"><span style="color: black;margin-left: 25%">账单</span></router-link>
+      <router-link to="#"><span style="color: black;margin-left: 30%">账单</span></router-link>
 
     </div>
     <div style="border-top: 1px solid #cccccc"></div>
@@ -15,8 +15,8 @@
         <div class="yve_num">
           <p>余额（元）</p>
           <span style="margin-left: 0.4rem;font-size: 0.5rem;margin-right: 2.5rem">0.00</span>
-          <router-link to="/setting">
-            <span> <img src="../../assets/images/baoxiang.png" alt="" style="width: 0.4rem;height: 0.4rem;padding-top: 0.25rem;padding-right: 0.1rem">充值有礼 &gt;</span></router-link>
+          <router-link to="/recharge">
+            <span><img src="../../assets/images/baoxiang.png" alt="" style="width: 0.4rem;height: 0.4rem;padding-top: 0.25rem;padding-right: 0.1rem">充值有礼 &gt;</span></router-link>
 
         </div>
       </div>
@@ -25,8 +25,8 @@
         <p style="font-size:20px;margin-top: 15px;margin-left: 15px;margin-bottom: 15px">果币</p>
         <span style="font-size: 30px;margin-left: 20px;">0</span>
         <span style="font-size: 15px;margin-right:55%">个</span>
-        <router-link to=""></router-link>
-        <span style="font-size: 18px;color: black">去充值 &gt;</span>
+        <router-link to="/recharge_xb"><span style="font-size: 18px;color: black">去充值 &gt;</span></router-link>
+
       </div>
     </div>
   </div>

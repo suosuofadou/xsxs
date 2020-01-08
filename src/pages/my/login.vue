@@ -32,7 +32,8 @@
 
 <script>
 import  axios from 'axios'
-axios.defaults.baseUrl="http://192.168.0.103:8080"
+axios.defaults.headers['Content-Type'] = 'Access-Control-Allow-Origin'
+
     export default {
         name: "login",
 
@@ -63,14 +64,16 @@ axios.defaults.baseUrl="http://192.168.0.103:8080"
         },
       methods: {
           userName(){
-            axios.post("http://192.168.0.103:8080/test/uid").then(res => {
+            axios.post("http://192.168.0.108:8080/test/uid").then(res => {
               this.guohao = res.data.uid;
               console.log( this.guohao);
             })
           },
             submitForm() {
             console.log(this.userpwd);
-                axios.post("http://192.168.0.103:8080/test/login",{ upwd: this.userpwd }).then(data => {
+                axios.post("http://192.168.0.108:8080/test/login",{ upwd: this.userpwd }).then(data => {
+                  console.log(this.userpwd);
+                  console.log(data.data);
                     if (data.data === "登录成功"){
                         this.$router.push({path:'/'})
                     }else {
